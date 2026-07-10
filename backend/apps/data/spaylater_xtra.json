@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nama": "SPayLater XTRA 0%",
+    "fieldName": "spayLater",
+    "options": [
+      {
+        "value": "No",
+        "label": "Tidak",
+        "rate": 0,
+        "keterangan": "Tidak menggunakan SPayLater"
+      },
+      {
+        "value": "Tenor3",
+        "label": "Tenor 3 bulan",
+        "rate": 0.025,
+        "keterangan": "SPayLater XTRA 0% tenor 3 bulan, biaya 2.5% dari harga nett"
+      },
+      {
+        "value": "Tenor6",
+        "label": "Tenor 6 bulan",
+        "rate": 0.04,
+        "keterangan": "SPayLater XTRA 0% tenor 6 bulan, biaya 4% dari harga nett"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nama": "Live XTRA",
+    "fieldName": "liveXTRA",
+    "options": [
+      {
+        "value": "No",
+        "label": "Tidak",
+        "rate": 0,
+        "maxBiaya": 0,
+        "keterangan": "Tidak menggunakan Live XTRA"
+      },
+      {
+        "value": "Yes",
+        "label": "Ya",
+        "rate": 0.03,
+        "maxBiaya": 20000,
+        "keterangan": "Live XTRA 3% dari harga nett. Maksimal Rp20.000"
+      },
+      {
+        "value": "YesPromo",
+        "label": "Ya (+ Promo Xtra/+)",
+        "rate": 0.02,
+        "maxBiaya": 20000,
+        "keterangan": "Live XTRA dengan Promo XTRA/XTRA+ 2% dari harga nett. Maksimal Rp20.000"
+      }
+    ]
+  }
+]

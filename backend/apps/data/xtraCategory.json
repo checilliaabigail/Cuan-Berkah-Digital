@@ -1,0 +1,6670 @@
+[
+  {
+    "id": 1,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "B",
+    "subKategori": "Logam Mulia",
+    "jenisProduk": [
+      "Berlian",
+      "Logam Mulia Lainnya",
+      "Perak",
+      "Permata",
+      "Platinum & Emas"
+    ],
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 2,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "B",
+    "subKategori": "Perhiasan Berharga",
+    "jenisProduk": [
+      "Anting",
+      "Bros & Pin",
+      "Cincin",
+      "Gelang Kaki",
+      "Gelang Tangan",
+      "Kalung",
+      "Liontin",
+      "Perhiasan Berharga Lainnya",
+      "Set Perhiasan"
+    ],
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 3,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Tambahan",
+    "jenisProduk": [
+      "Masker"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 4,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Rambut",
+    "jenisProduk": [
+      "Aksesoris Rambut Lainnya",
+      "Bando & Bandana",
+      "Hiasan Kepala",
+      "Tiara & Mahkota Bunga",
+      "Ikat Rambut",
+      "Pita & Scrunchie",
+      "Jepitan & Pin Rambut",
+      "Rambut Palsu & Extension"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 5,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Tambahan",
+    "jenisProduk": [
+      "Aksesoris Tambahan Lainnya",
+      "Bordir",
+      "Bros & Pin",
+      "Kancing Manset",
+      "Liontin",
+      "Sapu Tangan",
+      "Tato Temporer"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 6,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Anting",
+    "jenisProduk": [
+      "Anting"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 7,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Cincin",
+    "jenisProduk": [
+      "Cincin"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 8,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Dasi",
+    "jenisProduk": [
+      "Dasi"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 9,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Gelang Kaki",
+    "jenisProduk": [
+      "Gelang Kaki"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 10,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Gelang Tangan & Bangle",
+    "jenisProduk": [
+      "Gelang Tangan & Bangle"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 11,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Ikat Pinggang",
+    "jenisProduk": [
+      "Ikat Pinggang"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 12,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Kacamata & Aksesoris",
+    "jenisProduk": [
+      "Aksesoris Kacamata Lainnya",
+      "Frame & Lensa Kacamata",
+      "Kacamata Hitam",
+      "Tempat Kacamata & Aksesoris"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 13,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Kalung",
+    "jenisProduk": [
+      "Kalung"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 14,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Sarung Tangan",
+    "jenisProduk": [
+      "Sarung Tangan"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 15,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Set & Paket Aksesoris",
+    "jenisProduk": [
+      "Set & Paket Aksesoris"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 16,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Syal & Selendang",
+    "jenisProduk": [
+      "Syal & Selendang"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 17,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Topi",
+    "jenisProduk": [
+      "Topi"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 18,
+    "kategoriUtama": "Fashion",
+    "kategori": "Aksesoris Fashion",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Fashion Lainnya",
+    "jenisProduk": [
+      "Aksesoris Fashion Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 19,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "B",
+    "subKategori": "Aksesoris Bayi & Anak",
+    "jenisProduk": [
+      "Anting",
+      "Cincin",
+      "Gelang",
+      "Kalung",
+      "Perhiasan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 20,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Bayi & Anak",
+    "jenisProduk": [
+      "Aksesoris Bayi & Anak Lainnya",
+      "Aksesoris Rambut",
+      "Alat Penutup Telinga",
+      "Dompet",
+      "Ikat Pinggang",
+      "Jam Tangan",
+      "Kacamata",
+      "Kaos Kaki",
+      "Ransel",
+      "Sarung Tangan",
+      "Syal",
+      "Tas & Koper Lainnya",
+      "Tas Selempang & Bahu",
+      "Tas Troli",
+      "Topi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 21,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Pakaian Anak Laki-Laki",
+    "jenisProduk": [
+      "Atasan Lainnya",
+      "Baju Renang",
+      "Bawahan Lainnya",
+      "Blazer",
+      "Celana",
+      "Celana Pendek",
+      "Hoodie",
+      "Jaket & Coat Reguler",
+      "Jas & Setelan",
+      "Jeans",
+      "Kaos",
+      "Kaos Polo",
+      "Kemeja",
+      "Kostum",
+      "Outerwear Lainnya",
+      "Outerwear Musim Dingin",
+      "Overall",
+      "Pakaian Anak Laki-Laki Lainnya",
+      "Pakaian Dalam",
+      "Pakaian Tidur",
+      "Rompi",
+      "Sweater & Kardigan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 22,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Pakaian Anak Perempuan",
+    "jenisProduk": [
+      "Atasan Lainnya",
+      "Baju Renang",
+      "Baju Tidur",
+      "Bawahan Lainnya",
+      "Blazer",
+      "Celana Panjang",
+      "Celana Pendek",
+      "Dress",
+      "Hoodie",
+      "Jaket & Coat Reguler",
+      "Jas & Setelan",
+      "Jeans",
+      "Kaos",
+      "Kaos Polo",
+      "Kemeja & Blouse",
+      "Kostum",
+      "Legging",
+      "Outerwear Lainnya",
+      "Outerwear Musim Dingin",
+      "Pakaian Anak Perempuan Lainnya",
+      "Pakaian Dalam",
+      "Rok",
+      "Romper",
+      "Jumpsuit & Overall",
+      "Rompi",
+      "Sweater & Kardigan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 23,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Pakaian Bayi",
+    "jenisProduk": [
+      "Atasan",
+      "Baju Renang",
+      "Baju Tidur",
+      "Bawahan Lainnya",
+      "Bodysuit & Jumper",
+      "Celana Panjang & Legging",
+      "Celana Pendek",
+      "Dress",
+      "Outerwear Musim Dingin",
+      "Outerwear Reguler",
+      "Pakaian Bayi Lainnya",
+      "Rok",
+      "Set"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 24,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Sepatu Anak Laki-Laki",
+    "jenisProduk": [
+      "Flip Flop",
+      "Loafers",
+      "Sandal",
+      "Sepatu Anak Laki-Laki Lainnya",
+      "Sepatu Boot",
+      "Sepatu Formal",
+      "Sepatu Sneaker"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 25,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Sepatu Anak Perempuan",
+    "jenisProduk": [
+      "Flats",
+      "Flip Flop",
+      "Loafers",
+      "Sandal",
+      "Sepatu Anak Perempuan Lainnya",
+      "Sepatu Boot",
+      "Sepatu Sneaker"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 26,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "D",
+    "subKategori": "Sepatu Bayi",
+    "jenisProduk": [
+      "Sepatu Bayi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 27,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Bayi & Anak",
+    "jenisProduk": [
+      "Jas Hujan",
+      "Perlengkapan Hujan Lainnya",
+      "Sepatu Boot Hujan"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 28,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Bayi & Anak Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Fashion Bayi & Anak Lainnya",
+    "jenisProduk": [
+      "Fashion Bayi & Anak Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 29,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Mukena & Perlengkapan Sholat",
+    "jenisProduk": [
+      "Mukena",
+      "Mukena & Perlengkapan Sholat Lainnya",
+      "Mukena Travel",
+      "Peci",
+      "Songkok & Kopiah",
+      "Sajadah",
+      "Set Perlengkapan Sholat"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 30,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Outerwear",
+    "jenisProduk": [
+      "Cardigan",
+      "Jaket",
+      "Mantel",
+      "Outerwear Lainnya",
+      "Rompi"
+    ],
+    "regular": null,
+    "special": null
+  },
+  {
+    "id": 31,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Muslim Anak",
+    "jenisProduk": [
+      "Hijab",
+      "Mukena",
+      "Pakaian & Set Muslim",
+      "Pakaian Muslim Anak Lainnya",
+      "Pakaian Muslim Anak Laki-Laki",
+      "Pakaian Muslim Anak Perempuan Lainnya"
+    ],
+    "regular": null,
+    "special": null
+  },
+  {
+    "id": 32,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Muslim Pria",
+    "jenisProduk": [
+      "Atasan",
+      "Baju Melayu",
+      "Celana",
+      "Gamis Pria",
+      "Pakaian Muslim Pria Lainnya",
+      "Sarung"
+    ],
+    "regular": null,
+    "special": null
+  },
+  {
+    "id": 33,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Muslim Wanita",
+    "jenisProduk": [
+      "Abaya",
+      "Aksesoris Hijab Lainnya",
+      "Aksesoris Lainnya",
+      "Atasan Menyusui",
+      "Atasan Muslim Lainnya",
+      "Baju Kelelawar",
+      "Baju Kurung",
+      "Bawahan Lainnya",
+      "Celana Palazzo",
+      "Celana Panjang",
+      "Ciput",
+      "Dress Lainnya",
+      "Dress Menyusui",
+      "Gamis",
+      "Handsock",
+      "Hijab Instan",
+      "Hijab Lainnya",
+      "Hijab Segi Empat",
+      "Jumpsuit",
+      "Kaftan",
+      "Kaos Kaki",
+      "Kemeja, Blus, & Inner",
+      "Khimar",
+      "Legging",
+      "Pakaian Muslim Wanita Lainnya",
+      "Pashmina",
+      "Pin Hijab",
+      "Rok",
+      "Set Baju Muslim",
+      "Tunik"
+    ],
+    "regular": null,
+    "special": null
+  },
+  {
+    "id": 34,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "G",
+    "subKategori": "Set",
+    "jenisProduk": [
+      "Set"
+    ],
+    "regular": null,
+    "special": null
+  },
+  {
+    "id": 35,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim",
+    "kategoriProduk": "H",
+    "subKategori": "Pakaian Muslim Wanita",
+    "jenisProduk": [
+      "Baju Olahraga Muslim",
+      "Baju Renang Muslim"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 36,
+    "kategoriUtama": "Fashion",
+    "kategori": "Fashion Muslim Lainnya",
+    "kategoriProduk": "G",
+    "subKategori": "Fashion Muslim Lainnya",
+    "jenisProduk": [
+      "Fashion Muslim Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 37,
+    "kategoriUtama": "Fashion",
+    "kategori": "Jam Tangan",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Jam Tangan",
+    "jenisProduk": [
+      "Aksesoris Jam Tangan lainnya",
+      "Alat Servis Jam Tangan",
+      "Baterai Jam Tangan",
+      "Kotak Jam Tangan",
+      "Pengait Jam Tangan",
+      "Strap"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 38,
+    "kategoriUtama": "Fashion",
+    "kategori": "Jam Tangan",
+    "kategoriProduk": "H",
+    "subKategori": "Jam Tangan Couple",
+    "jenisProduk": [
+      "Jam Tangan Couple"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 39,
+    "kategoriUtama": "Fashion",
+    "kategori": "Jam Tangan",
+    "kategoriProduk": "H",
+    "subKategori": "Jam Tangan Pria",
+    "jenisProduk": [
+      "Jam Tangan Pria"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 40,
+    "kategoriUtama": "Fashion",
+    "kategori": "Jam Tangan",
+    "kategoriProduk": "H",
+    "subKategori": "Jam Tangan Wanita",
+    "jenisProduk": [
+      "Jam Tangan Wanita"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 41,
+    "kategoriUtama": "Fashion",
+    "kategori": "Jam Tangan",
+    "kategoriProduk": "H",
+    "subKategori": "Jam Tangan Lainnya",
+    "jenisProduk": [
+      "Jam Tangan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 42,
+    "kategoriUtama": "Fashion",
+    "kategori": "Koper & Tas Travel",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Travel",
+    "jenisProduk": [
+      "Aksesoris Travel Lainnya",
+      "Bantal Leher & Penutup Mata",
+      "Botol & Wadah Isi Ulang",
+      "Gembok Koper",
+      "Organizer Travel",
+      "Passport Cover",
+      "Pelindung & Sarung Koper",
+      "Strap Koper",
+      "Tag Koper",
+      "Timbangan Koper"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 43,
+    "kategoriUtama": "Fashion",
+    "kategori": "Koper & Tas Travel",
+    "kategoriProduk": "G",
+    "subKategori": "Koper",
+    "jenisProduk": [
+      "Koper"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 44,
+    "kategoriUtama": "Fashion",
+    "kategori": "Koper & Tas Travel",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Travel",
+    "jenisProduk": [
+      "Tas Lipat",
+      "Tas Serut",
+      "Tas Travel Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 45,
+    "kategoriUtama": "Fashion",
+    "kategori": "Koper & Tas Travel",
+    "kategoriProduk": "H",
+    "subKategori": "Tas Travel",
+    "jenisProduk": [
+      "Tas Duffel"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 46,
+    "kategoriUtama": "Fashion",
+    "kategori": "Koper & Tas Travel Lainnya",
+    "kategoriProduk": "G",
+    "subKategori": "Koper & Tas Travel Lainnya",
+    "jenisProduk": [
+      "Koper & Tas Travel Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 47,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Atasan",
+    "jenisProduk": [
+      "Atasan Lainnya",
+      "Kaos",
+      "Kaos Polo",
+      "Kemeja",
+      "Tanktop"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 48,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Celana Panjang",
+    "jenisProduk": [
+      "Cargo",
+      "Celana Panjang",
+      "Celana Panjang Lainnya",
+      "Jogger"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 49,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Celana Panjang Jeans",
+    "jenisProduk": [
+      "Celana Panjang Jeans"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 50,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Celana Pendek",
+    "jenisProduk": [
+      "Celana Pendek"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 51,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Hoodie & Sweatshirt",
+    "jenisProduk": [
+      "Hoodie",
+      "Hoodie & Sweatshirt Lainnya",
+      "Sweatshirt"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 52,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Jaket, Mantel, & Rompi",
+    "jenisProduk": [
+      "Jaket",
+      "Jaket & Mantel Musim Dingin",
+      "Jaket, Mantel, & Rompi Lainnya",
+      "Rompi"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 53,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Jas Formal",
+    "jenisProduk": [
+      "Celana Formal",
+      "Jas & Blazer Formal",
+      "Jas Formal Lainnya",
+      "Rompi Formal",
+      "Set Jas Formal"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 54,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Kaos Kaki",
+    "jenisProduk": [
+      "Kaos Kaki"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 55,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Kostum",
+    "jenisProduk": [
+      "Kostum"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 56,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Pakaian Dalam",
+    "jenisProduk": [
+      "Celana Dalam",
+      "Kaos Dalam",
+      "Pakaian Dalam Lainnya",
+      "Pakaian Dalam Termal"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 57,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Pakaian Kerja",
+    "jenisProduk": [
+      "Pakaian Kerja"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 58,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Pakaian Tidur",
+    "jenisProduk": [
+      "Pakaian Tidur"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 59,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Pakaian Tradisional",
+    "jenisProduk": [
+      "Atasan Tradisional",
+      "Bawahan Tradisional",
+      "Pakaian Tradisional Lainnya",
+      "Set Pakaian Tradisional"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 60,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Set Pakaian Pria",
+    "jenisProduk": [
+      "Set Pakaian Pria"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 61,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Sweater & Cardigan",
+    "jenisProduk": [
+      "Sweater & Cardigan"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 62,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Pakaian Pria Lainnya",
+    "jenisProduk": [
+      "Pakaian Pria Lainnya"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 63,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Kaos Kaki & Stocking",
+    "jenisProduk": [
+      "Kaos Kaki",
+      "Kaos Kaki & Stocking Lainnya",
+      "Stocking"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 64,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Atasan",
+    "jenisProduk": [
+      "Atasan Lainnya",
+      "Bodysuit",
+      "Kaos",
+      "Kaus Polo",
+      "Kemben",
+      "Kemeja & Blouse",
+      "Tanktop & Kamisol"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 65,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Baju Hamil",
+    "jenisProduk": [
+      "Atasan Hamil",
+      "Baju Hamil Lainnya",
+      "Baju Menyusui",
+      "Bra Menyusui",
+      "Celana Hamil",
+      "Dress Hamil",
+      "Set Baju Hamil"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 66,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Celana Jeans",
+    "jenisProduk": [
+      "Celana Jeans"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 67,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Celana Panjang & Legging",
+    "jenisProduk": [
+      "Celana Panjang",
+      "Celana Panjang & Legging Lainnya",
+      "Legging & Tregging"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 68,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Celana Pendek",
+    "jenisProduk": [
+      "Celana Pendek",
+      "Celana Pendek Lainnya",
+      "Rok Celana"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 69,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Dress",
+    "jenisProduk": [
+      "Dress"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 70,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Hoodie & Sweatshirt",
+    "jenisProduk": [
+      "Hoodie",
+      "Hoodie & Sweatshirt Lainnya",
+      "Sweatshirt"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 71,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Jaket, Mantel, & Rompi",
+    "jenisProduk": [
+      "Blazer",
+      "Cape",
+      "Jaket",
+      "Jaket & Mantel Musim Dingin",
+      "Jaket, Mantel, & Rompi Lainnya",
+      "Rompi"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 72,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Jumpsuit, Playsuit, & Overall",
+    "jenisProduk": [
+      "Jumpsuit",
+      "Jumpsuit, Playsuit, & Overall Lainnya",
+      "Overall",
+      "Playsuit"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 73,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Kain",
+    "jenisProduk": [
+      "Batik",
+      "Beludru, Sutra, & Satin",
+      "Denim",
+      "Kain Lainnya",
+      "Kanvas",
+      "Katun",
+      "Kebaya",
+      "Kulit",
+      "Songket",
+      "Vinil & Nilon",
+      "Wol"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 74,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Kostum",
+    "jenisProduk": [
+      "Kostum"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 75,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Dalam",
+    "jenisProduk": [
+      "Aksesoris Bra Lainnya",
+      "Bra",
+      "Celana Dalam",
+      "Celana Stretch",
+      "Korset",
+      "Padding",
+      "Pakaian Dalam Lainnya",
+      "Pakaian Dalam Termal",
+      "Set Pakaian Dalam",
+      "Sexy Lingerie",
+      "Stiker Nipple",
+      "Strap"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 76,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Tidur & Piyama",
+    "jenisProduk": [
+      "Daster",
+      "Kimono",
+      "Pakaian Tidur & Piyama Lainnya",
+      "Piyama"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 77,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Tradisional",
+    "jenisProduk": [
+      "Atasan Tradisional",
+      "Bawahan Tradisional",
+      "Dress Tradisional",
+      "Pakaian Tradisional Lainnya",
+      "Set Pakaian Tradisional"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 78,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Rok",
+    "jenisProduk": [
+      "Rok"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 79,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Set",
+    "jenisProduk": [
+      "Set Lainnya",
+      "Set Pakaian Couple",
+      "Set Pakaian Keluarga",
+      "Set Wanita"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 80,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Sweater & Cardigan",
+    "jenisProduk": [
+      "Sweater & Cardigan"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 81,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Wedding Dress",
+    "jenisProduk": [
+      "Wedding Dress"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 82,
+    "kategoriUtama": "Fashion",
+    "kategori": "Pakaian Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Wanita Lainnya",
+    "jenisProduk": [
+      "Pakaian Wanita Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 83,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Aksesoris & Perawatan Sepatu",
+    "jenisProduk": [
+      "Aksesoris & Perawatan Sepatu Lainnya",
+      "Alat Perawatan & Pembersih Sepatu",
+      "Insole Sepatu",
+      "Parfum Sepatu",
+      "Shoe Tree & Horns",
+      "Tali Sepatu"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 84,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Boot",
+    "jenisProduk": [
+      "Boot Fashion",
+      "Boot Lainnya",
+      "Safety Boot",
+      "Sepatu Boot Hujan"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 85,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Loafer",
+    "jenisProduk": [
+      "Loafer"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 86,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Oxford",
+    "jenisProduk": [
+      "Oxford"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 87,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Sandal",
+    "jenisProduk": [
+      "Sandal Jepit",
+      "Sandal Kesehatan",
+      "Sandal Lainnya",
+      "Sandal Rumah",
+      "Sandal Slide"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 88,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Slip-On & Mules",
+    "jenisProduk": [
+      "Slip-On & Mules"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 89,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Sneakers",
+    "jenisProduk": [
+      "Sneakers"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 90,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Pria",
+    "kategoriProduk": "F",
+    "subKategori": "Sepatu Pria Lainnya",
+    "jenisProduk": [
+      "Sepatu Pria Lainnya"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 91,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Aksesoris & Perawatan Sepatu",
+    "jenisProduk": [
+      "Aksesoris & Perawatan Sepatu Lainnya",
+      "Parfum Sepatu",
+      "Perawatan Sepatu",
+      "Shoe Tree & Horns",
+      "Sol Dalam Sepatu",
+      "Tali Sepatu"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 92,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Boots",
+    "jenisProduk": [
+      "Boots Lainnya",
+      "Sepatu Boot Fashion",
+      "Sepatu Boot Hujan"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 93,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Heels",
+    "jenisProduk": [
+      "Heels"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 94,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Sandal Jepit & Sandal Lainnya",
+    "jenisProduk": [
+      "Sandal Flat",
+      "Sandal Jepit",
+      "Sandal Kesehatan",
+      "Sandal Lainnya",
+      "Sandal Rumah"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 95,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Sepatu Flat",
+    "jenisProduk": [
+      "Flat & Ballerina",
+      "Loafer",
+      "Sepatu Flat Lainnya",
+      "Sepatu Oxford",
+      "Slip-On",
+      "Mules & Mary Janes"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 96,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Sneakers",
+    "jenisProduk": [
+      "Sneakers"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 97,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Wedges",
+    "jenisProduk": [
+      "Wedges"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 98,
+    "kategoriUtama": "Fashion",
+    "kategori": "Sepatu Wanita",
+    "kategoriProduk": "F",
+    "subKategori": "Sepatu Wanita Lainnya",
+    "jenisProduk": [
+      "Sepatu Wanita Lainnya"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 99,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Clutch",
+    "jenisProduk": [
+      "Clutch"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 100,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Dompet",
+    "jenisProduk": [
+      "Dompet Kartu",
+      "Dompet Koin",
+      "Dompet Kunci & Handphone",
+      "Dompet Lainnya",
+      "Dompet Lipat",
+      "Dompet Panjang"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 101,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Ransel Pria",
+    "jenisProduk": [
+      "Ransel Pria"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 102,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Kerja",
+    "jenisProduk": [
+      "Tas Kerja"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 103,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Laptop",
+    "jenisProduk": [
+      "Ransel Laptop",
+      "Sarung Laptop",
+      "Tas & Case Laptop",
+      "Tas Laptop Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 104,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Pinggang Pria",
+    "jenisProduk": [
+      "Tas Pinggang Pria"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 105,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Selempang & Bahu Pria",
+    "jenisProduk": [
+      "Tas Selempang & Bahu Pria"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 106,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tote Bag",
+    "jenisProduk": [
+      "Tote Bag"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 107,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Pria",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Pria Lainnya",
+    "jenisProduk": [
+      "Tas Pria Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 108,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Tas",
+    "jenisProduk": [
+      "Aksesoris Tas Wanita Lainnya",
+      "Gantungan Tas",
+      "Hiasan & Gantungan Kunci",
+      "Organizer Tas",
+      "Produk Perawatan & Pembersih Tas",
+      "Tali Tas"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 109,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Clutch",
+    "jenisProduk": [
+      "Clutch"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 110,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Dompet Wanita",
+    "jenisProduk": [
+      "Dompet Kartu",
+      "Dompet Koin",
+      "Dompet Kunci & Handphone",
+      "Dompet Lipat",
+      "Dompet Panjang",
+      "Dompet Wanita Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 111,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Ransel Wanita",
+    "jenisProduk": [
+      "Ransel Wanita"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 112,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Laptop",
+    "jenisProduk": [
+      "Ransel Laptop",
+      "Sarung Laptop",
+      "Tas & Case Laptop",
+      "Tas Laptop Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 113,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Pinggang Wanita",
+    "jenisProduk": [
+      "Tas Pinggang Wanita"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 114,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Selempang & Bahu Wanita",
+    "jenisProduk": [
+      "Tas Selempang & Bahu Wanita"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 115,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Top Handle Bag",
+    "jenisProduk": [
+      "Top Handle Bag"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 116,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Tote Bag",
+    "jenisProduk": [
+      "Tote Bag"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 117,
+    "kategoriUtama": "Fashion",
+    "kategori": "Tas Wanita",
+    "kategoriProduk": "G",
+    "subKategori": "Tas Wanita Lainnya",
+    "jenisProduk": [
+      "Tas Wanita Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 118,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Kamar Bayi",
+    "jenisProduk": [
+      "Ayunan Bayi",
+      "Baby Walker",
+      "Bantal & Guling",
+      "Boks & Matras Tidur Bayi",
+      "Kamar Bayi Lainnya",
+      "Matras & Sprei Lainnya",
+      "Selimut & Bedong",
+      "Sprei",
+      "Tempat Penyimpanan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 119,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Keamanan Bayi",
+    "jenisProduk": [
+      "Alat Keamanan Bayi Lainnya",
+      "Baby Monitor",
+      "Bumper, Rail, & Guard",
+      "Kelambu",
+      "Pelindung Sudut",
+      "Pengaman Laci & Lemari",
+      "Pintu & Pagar Bayi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 120,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Kesehatan Bayi",
+    "jenisProduk": [
+      "Baby Lotion & Cream",
+      "Bedak",
+      "Kesehatan Bayi Lainnya",
+      "Minyak",
+      "Perawatan Hidung & Pernafasan",
+      "Perawatan Kulit Bayi Lainnya",
+      "Perawatan Mulut Bayi",
+      "Sun Care Bayi",
+      "Vitamin & Suplemen Bayi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 121,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Kesehatan Kehamilan",
+    "jenisProduk": [
+      "Kesehatan Kehamilan Lainnya",
+      "Pelembab & Cream",
+      "Susu Ibu Hamil",
+      "Vitamin & Suplemen Ibu Hamil"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 122,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Ibu Hamil",
+    "jenisProduk": [
+      "Bantal Ibu Hamil",
+      "Penyangga Perut",
+      "Perlengkapan Ibu Hamil Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 123,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Makan Bayi",
+    "jenisProduk": [
+      "Apron Menyusui",
+      "Botol Susu & Aksesoris",
+      "Breast Pad, Shell, & Shield",
+      "Celemek Bayi",
+      "Dot Bayi",
+      "Food Processor",
+      "Gelas Bayi",
+      "Kantong ASI",
+      "Kursi Makan Bayi",
+      "Pembersih Botol Susu",
+      "Penghangat Botol",
+      "Peralatan Makan Bayi",
+      "Peralatan Makan Lainnya",
+      "Perlengkapan Botol Susu Lainnya",
+      "Perlengkapan Makan Bayi Lainnya",
+      "Perlengkapan Menyusui Lainnya",
+      "Pompa ASI & Aksesoris",
+      "Sterilizer",
+      "Tas Pendingin Botol Susu",
+      "Tempat Makan Bayi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 124,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Mandi",
+    "jenisProduk": [
+      "Alat & Aksesoris Mandi",
+      "Alat Perawatan Bayi",
+      "Bak Mandi & Dudukan",
+      "Detergen Pakaian Bayi",
+      "Jas Mandi, Handuk, & Lap Mandi",
+      "Parfum Bayi",
+      "Penutup Rambut",
+      "Perawatan Rambut & Sabun Mandi",
+      "Perlengkapan Mandi Lainnya",
+      "Tisu"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 125,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Travelling Bayi",
+    "jenisProduk": [
+      "Aksesoris Dudukan Mobil & Motor",
+      "Aksesoris Stroller",
+      "Dudukan Mobil & Motor",
+      "Gendongan Bayi",
+      "Perlengkapan Travelling Bayi Lainnya",
+      "Sabuk Pengaman Anak",
+      "Stroller & Perlengkapan Travelling",
+      "Tas Perlengkapan Bayi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 126,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Popok & Pispot",
+    "jenisProduk": [
+      "Perlak",
+      "Pispot",
+      "Popok & Pispot Lainnya",
+      "Popok Kain & Aksesoris",
+      "Popok Sekali Pakai"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 127,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Set & Paket Hadiah",
+    "jenisProduk": [
+      "Set & Paket Hadiah"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 128,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "D",
+    "subKategori": "Susu Formula & Makanan Bayi",
+    "jenisProduk": [
+      "Bubur & Sereal Bayi",
+      "Camilan Bayi",
+      "Susu Formula",
+      "Susu Formula & Makanan Bayi Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 129,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi",
+    "kategoriProduk": "H",
+    "subKategori": "Mainan",
+    "jenisProduk": [
+      "Boneka & Aksesoris",
+      "Boneka & Mainan Boneka Lainnya",
+      "Crib Mobile & Rattle",
+      "Gigitan Bayi",
+      "Inflatable & Perosotan",
+      "Kartu Edukasi Anak",
+      "Kendaraan Mainan",
+      "Kolam, Pelampung, & Mainan Pasir",
+      "Mainan & Playmat Bayi",
+      "Mainan Balok",
+      "Mainan Bayi & Anak Lainnya",
+      "Mainan Boneka",
+      "Mainan Edukatif Lainnya",
+      "Mainan Ilmu Pengetahuan Alam & Teknologi",
+      "Mainan Lainnya",
+      "Mainan Matematika",
+      "Mainan Musik",
+      "Mainan Olahraga",
+      "Mainan Outdoor Lainnya",
+      "Mainan Peran",
+      "Mainan Robot",
+      "Mainan Saat Mandi",
+      "Mainan Slime & Squishy",
+      "Mainan Tablet & Komputer",
+      "Mainan Terbang, Layang-layang, & Kincir Angin",
+      "Pagar Mainan Bayi",
+      "Pistol Mainan",
+      "Poster Edukatif",
+      "Puzzle",
+      "Rumah Boneka & Aksesoris",
+      "Seni & Kerajinan",
+      "Sepeda, Skuter, & Ride-On",
+      "Shape Sorter",
+      "Tenda Mainan",
+      "Terowongan Mainan, & Ball Pit"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 130,
+    "kategoriUtama": "FMCG",
+    "kategori": "Ibu & Bayi Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Ibu & Bayi Lainnya",
+    "jenisProduk": [
+      "Ibu & Bayi Lainnya"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 131,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "D",
+    "subKategori": "Kesehatan Seksual",
+    "jenisProduk": [
+      "Kesehatan Seksual Lainnya",
+      "Kondom",
+      "Pelumas",
+      "Penunjang Performa"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 132,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Diri",
+    "jenisProduk": [
+      "Cairan Lensa & Obat Tetes Mata",
+      "Popok Dewasa"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 133,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "E",
+    "subKategori": "Obat-obatan & Alat Kesehatan",
+    "jenisProduk": [
+      "Alat Bantu Cedera & Disabilitas Lainnya",
+      "Alat Bantu Dengar",
+      "Alat Bantu Jalan",
+      "Alat Laboratorium",
+      "Alat Medis Lainnya",
+      "Alat P3K",
+      "Alat Penopang Tubuh",
+      "Alat Tes & Monitor Lainnya",
+      "Alat Ukur Gula Darah",
+      "Alat Ukur Tekanan Darah",
+      "Antiseptik & Disinfektan",
+      "Kursi Roda",
+      "Obat Bebas (OTC)",
+      "Obat Pereda Nyeri",
+      "Obat Resep",
+      "Obat Tradisional",
+      "Oximeter",
+      "P3K Lainnya",
+      "Perawatan Hidung & Pernafasan",
+      "Plester & Perban",
+      "Salep & Krim",
+      "Sarung Tangan & Masker Medis",
+      "Stetoskop",
+      "Termometer",
+      "Timbangan & Alat Ukur Kadar Lemak"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 134,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "E",
+    "subKategori": "Perawatan Diri",
+    "jenisProduk": [
+      "Alat Ortodontik",
+      "Alat Pijat & Terapi",
+      "Anti Nyamuk & Serangga",
+      "Cream Kewanitaan",
+      "Dental Floss",
+      "Hand Sanitizer",
+      "Kesehatan Mulut Lainnya",
+      "Kewanitaan Lainnya",
+      "Menstrual Cup",
+      "Obat Kumur",
+      "Pasta Gigi",
+      "Pembalut & Panty Liner",
+      "Pembersih Kewanitaan",
+      "Pemutih Gigi",
+      "Perawatan Diri Lainnya",
+      "Perawatan Gigi Palsu",
+      "Perawatan Telinga",
+      "Sikat Gigi",
+      "Sikat Gigi Elektrik",
+      "Tampon",
+      "Tes Kehamilan & Kesuburan"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 135,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "E",
+    "subKategori": "Suplemen Makanan",
+    "jenisProduk": [
+      "Diet & Detoks",
+      "Kebugaran",
+      "Kesejahteraan",
+      "Suplemen Kecantikan",
+      "Suplemen Makanan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 136,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan",
+    "kategoriProduk": "H",
+    "subKategori": "Perawatan Diri",
+    "jenisProduk": [
+      "Kesehatan Mata Lainnya",
+      "Lensa Kontak"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 137,
+    "kategoriUtama": "FMCG",
+    "kategori": "Kesehatan Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Kesehatan Lainnya",
+    "jenisProduk": [
+      "Kesehatan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 138,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Bahan Baking",
+    "jenisProduk": [
+      "Bahan Baking Lainnya",
+      "Bahan Dekorasi Kue",
+      "Baking Powder & Soda Kue",
+      "Penyedap Kue",
+      "Pewarna Makanan",
+      "Tepung",
+      "Tepung Premix Instan"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 139,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Bahan Pokok",
+    "jenisProduk": [
+      "Acar Sayuran",
+      "Bahan Pokok Lainnya",
+      "Beras",
+      "Biji-bijian & Kacang-kacangan",
+      "Buah Kaleng",
+      "Daging Kaleng",
+      "Makanan Herbal & Tradisional",
+      "Makanan Kaleng Lainnya",
+      "Makanan Kering Lainnya",
+      "Mie",
+      "Pasta",
+      "Sayur Kaleng",
+      "Seafood Kaleng",
+      "Seafood Kering",
+      "Sup Kaleng"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 140,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Kebutuhan Memasak",
+    "jenisProduk": [
+      "Anggur Masak",
+      "Bumbu Masak Instan",
+      "Bumbu Masak Lainnya",
+      "Cuka",
+      "Dressing",
+      "Garam",
+      "Gula",
+      "Kaldu, Saus, & Sup Instan",
+      "Kebutuhan Memasak Lainnya",
+      "Kecap & Saus Lainnya",
+      "Lada",
+      "Minyak",
+      "Pemanis",
+      "Penambah Rasa",
+      "Rempah-rempah",
+      "Saus Cabai & Sambal",
+      "Tepung Bumbu"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 141,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Makanan Instan",
+    "jenisProduk": [
+      "Hotpot Instan",
+      "Makanan Instan Lainnya",
+      "Makanan Siap Saji",
+      "Mie & Pasta Instan",
+      "Nasi & Bubur Instan"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 142,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Makanan Ringan",
+    "jenisProduk": [
+      "Abon",
+      "Biji-bijian",
+      "Biskuit, Kue, & Wafer",
+      "Buah Kering",
+      "Cokelat",
+      "Dendeng",
+      "Kacang",
+      "Keripik & Kerupuk",
+      "Makanan Ringan Kering Lainnya",
+      "Makanan Ringan Lainnya",
+      "Permen",
+      "Popcorn",
+      "Puding, Jeli, & Marshmallow",
+      "Rumput Laut",
+      "Snack Seafood"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 143,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Makanan Segar & Beku",
+    "jenisProduk": [
+      "Anggur",
+      "Apel & Pir",
+      "Bawang & Jahe",
+      "Brokoli & Kembang Kol",
+      "Buah Berbiji Tengah (Alpukat, Kurma, Ceri, dll)",
+      "Buah Beri",
+      "Buah Lainnya",
+      "Buah Potong & Paket Aneka Buah",
+      "Buah Tropis & Eksotis",
+      "Buah-buahan",
+      "Cabai & Paprika",
+      "Daging & Seafood Beku",
+      "Daging Ayam",
+      "Daging Babi",
+      "Daging Kambing",
+      "Daging Lainnya",
+      "Daging Sapi",
+      "Daging Vegetarian",
+      "Ikan",
+      "Jamur",
+      "Jeruk",
+      "Lemon & Limau",
+      "Kacang-kacangan & Jagung",
+      "Kecambah",
+      "Kepiting",
+      "Kol & Kubis",
+      "Makanan Beku Olahan",
+      "Makanan Segar & Beku Lainnya",
+      "Melon & Semangka",
+      "Pisang",
+      "Rempah Segar",
+      "Sayur Potong & Paket Aneka Sayur",
+      "Sayuran",
+      "Sayuran Daun",
+      "Sayuran Lainnya",
+      "Sayuran Salad",
+      "Seafood Lainnya",
+      "Terong & Labu",
+      "Udang",
+      "Umbi-umbian & Sayuran Batang"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 144,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Menu Sarapan",
+    "jenisProduk": [
+      "Bar Sereal",
+      "Madu & Olesan",
+      "Menu Sarapan Lainnya",
+      "Selai & Olesan",
+      "Sereal, Granola, & Oat"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 145,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Minuman",
+    "jenisProduk": [
+      "Air Mineral",
+      "Cordial & Sirup",
+      "Jus & Sirup",
+      "Kopi",
+      "Minuman Bersoda",
+      "Minuman Bubuk Instan",
+      "Minuman Cokelat",
+      "Minuman Energi & Isotonik",
+      "Minuman Lainnya",
+      "Minuman Pencuci Mulut",
+      "Minuman Tradisional & Herbal",
+      "Susu Non-Dairy",
+      "Teh",
+      "Topping Minuman"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 146,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Minuman Alkohol",
+    "jenisProduk": [
+      "Bir & Cider",
+      "Liquor & Spirits",
+      "Minuman Alkohol Lainnya",
+      "Sake, Soju, & Umeshu",
+      "Wine & Champagne"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 147,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Roti & Kue",
+    "jenisProduk": [
+      "Kue & Pie",
+      "Pastry",
+      "Roti",
+      "Roti & Kue Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 148,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Set Hadiah & Hampers",
+    "jenisProduk": [
+      "Set Hadiah & Hampers"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 149,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman",
+    "kategoriProduk": "E",
+    "subKategori": "Susu & Olahan",
+    "jenisProduk": [
+      "Es Krim",
+      "Keju",
+      "Krimer",
+      "Mentega & Margarin",
+      "Susu & Olahan Lainnya",
+      "Susu Bubuk",
+      "Susu Kental Manis & Evaporasi",
+      "Susu Lainnya",
+      "Susu Segar",
+      "Susu UHT",
+      "Tahu",
+      "Telur",
+      "Yoghurt"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 150,
+    "kategoriUtama": "FMCG",
+    "kategori": "Makanan & Minuman Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Makanan & Minuman Lainnya",
+    "jenisProduk": [
+      "Makanan & Minuman Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 151,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Alat Kecantikan",
+    "jenisProduk": [
+      "Aksesoris Make Up Lainnya",
+      "Alat Kecantikan Lainnya",
+      "Alat Pelangsing & Pijat Wajah",
+      "Alat Pelangsing Tubuh",
+      "Alat Pembersih Wajah",
+      "Alat Penghilang Bulu Rambut",
+      "Alat Perawatan Wajah Lainnya",
+      "Alat Rambut Lainnya",
+      "Alat Styling Heatless",
+      "Bulu Mata Palsu",
+      "Eyebrow Template",
+      "Facial Steamer",
+      "Hair Dryer",
+      "Kaca / Cermin",
+      "Kapas",
+      "Make Up Brush",
+      "Make Up Sponge & Applicator",
+      "Pembersih Make Up Brush",
+      "Penjepit Bulu Mata",
+      "Peralatan Styling Rambut",
+      "Rautan",
+      "Sisir",
+      "Skot Mata",
+      "Tas Make Up"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 152,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Kosmetik",
+    "jenisProduk": [
+      "BB & CC Cream",
+      "Bedak",
+      "Blush",
+      "Bronzer",
+      "Contour & Highlighter",
+      "Concealer & Corrector",
+      "Eyebrow",
+      "Eyeliner",
+      "Eyeshadow",
+      "Foundation",
+      "Kosmetik Bibir Lainnya",
+      "Kosmetik Lainnya",
+      "Kosmetik Mata Lainnya",
+      "Kosmetik Wajah Lainnya",
+      "Lip Gloss",
+      "Lip Liner",
+      "Lip Plumper",
+      "Lip Tint",
+      "Lipstik",
+      "Make Up Base & Primer",
+      "Maskara",
+      "Pembersih Make Up",
+      "Primer Mata",
+      "Setting & Finishing Spray"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 153,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Paket & Set Kecantikan",
+    "jenisProduk": [
+      "Paket & Set Kecantikan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 154,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Parfum & Wewangian",
+    "jenisProduk": [
+      "Parfum & Wewangian"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 155,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Pria",
+    "jenisProduk": [
+      "Aksesoris Cukur",
+      "Alat Cukur",
+      "Cream, Foam & Gel",
+      "Pelembab & Treatment",
+      "Pembersih Wajah",
+      "Perawatan Pria Lainnya",
+      "Perawatan Rambut",
+      "Perawatan Setelah Bercukur",
+      "Perawatan Tubuh",
+      "Perawatan Wajah Lainnya",
+      "Pisau Cukur",
+      "Shaving & Grooming Lainnya",
+      "Sikat Cukur",
+      "Trimmers, Gunting & Groomer Multi-fungsi"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 156,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Rambut",
+    "jenisProduk": [
+      "Hair Styling",
+      "Kondisioner Rambut dan Kulit Kepala",
+      "Perawatan Rambut Lainnya",
+      "Pewarna Rambut",
+      "Shampo",
+      "Treatment Rambut"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 157,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Tangan, Kaki & Kuku",
+    "jenisProduk": [
+      "Alat & Mesin Manicure",
+      "Base & Top Coat",
+      "Cat Kuku",
+      "Deodoran Kaki",
+      "Kuku Palsu",
+      "Lotion, Cream & Scrub",
+      "Masker Kaki",
+      "Masker Tangan",
+      "Nail Art & Sticker",
+      "Pembersih Cat Kuku",
+      "Perawatan Kaki Lainnya",
+      "Perawatan Kuku Lainnya",
+      "Perawatan Tangan Lainnya",
+      "Perawatan Tangan, Kaki & Kuku Lainnya",
+      "Sabun Cuci Tangan",
+      "Treatment Kuku"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 158,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Tubuh",
+    "jenisProduk": [
+      "Body Cream",
+      "Body Lotion & Body Butter",
+      "Cream & Wax Penghilang Bulu Rambut",
+      "Deodoran",
+      "Masker Tubuh",
+      "Minyak Pijat",
+      "Minyak Tubuh",
+      "Perawatan Payudara",
+      "Perawatan Tubuh Lainnya",
+      "Sabun Mandi",
+      "Scrub & Peel Tubuh",
+      "Sun Care Lainnya",
+      "Sunscreen & Aftersun Tubuh",
+      "Tanning Oil & Self Tanners"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 159,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Wajah",
+    "jenisProduk": [
+      "Cream Mata",
+      "Facial Mist",
+      "Kertas Minyak",
+      "Masker Bibir",
+      "Masker Mata",
+      "Masker Wajah",
+      "Minyak Wajah",
+      "Pelembab Bibir",
+      "Pelembab Wajah",
+      "Pembersih Wajah",
+      "Perawatan Wajah After Sun",
+      "Perawatan Wajah Lainnya",
+      "Scrub & Exfoliator Bibir",
+      "Scrub & Peel Wajah",
+      "Serum & Essence Wajah",
+      "Serum Alis & Bulu Mata",
+      "Sunscreen Wajah",
+      "Toner",
+      "Treatment Bibir Lainnya",
+      "Treatment Jerawat",
+      "Treatment Mata Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 160,
+    "kategoriUtama": "FMCG",
+    "kategori": "Perawatan & Kecantikan Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan & Kecantikan Lainnya",
+    "jenisProduk": [
+      "Perawatan & Kecantikan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 161,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Amplifier & Mixer",
+    "jenisProduk": [
+      "Amplifier & Mixer"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 162,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Earphone, Headphone, & Headset",
+    "jenisProduk": [
+      "Earphone, Headphone, & Headset"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 163,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Kabel & Konverter Audio & Video",
+    "jenisProduk": [
+      "Kabel & Konverter Audio & Video"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 164,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Media Player",
+    "jenisProduk": [
+      "CD, DVD, & Blu-ray Player",
+      "Media Player Lainnya",
+      "MP3 & MP4 Player",
+      "Radio & Pemutar Kaset",
+      "Voice Recorders"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 165,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Mikrofon & Aksesoris",
+    "jenisProduk": [
+      "Mikrofon & Aksesoris"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 166,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio",
+    "kategoriProduk": "D",
+    "subKategori": "Perangkat Audio & Speaker",
+    "jenisProduk": [
+      "AV Receiver",
+      "Home Theater & Karaoke",
+      "Perangkat Audio & Speaker Lainnya",
+      "Speaker"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 167,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Audio Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Audio Lainnya",
+    "jenisProduk": [
+      "Audio Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 168,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "C",
+    "subKategori": "Proyektor & Aksesoris",
+    "jenisProduk": [
+      "Pointer",
+      "Proyektor & Aksesoris Lainnya",
+      "Proyektor & Layar Proyektor"
+    ],
+    "regular": {
+      "rate": 0.035,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.05,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 169,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Baterai",
+    "jenisProduk": [
+      "Baterai"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 170,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Peralatan Listrik Besar",
+    "jenisProduk": [
+      "AC",
+      "AC Portable",
+      "Kipas Angin",
+      "Mesin Cuci",
+      "Mesin Cuci & Pengering Lainnya",
+      "Pendingin Ruangan Lainnya",
+      "Pengering Pakaian",
+      "Pengering Sepatu",
+      "Penghangat Ruangan",
+      "Peralatan Listrik Besar Lainnya",
+      "Water Heater"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 171,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Peralatan Listrik Kecil",
+    "jenisProduk": [
+      "Dehumidifier",
+      "Foot Bath & Spa",
+      "Mesin Fax",
+      "Mesin Jahit & Aksesoris",
+      "Penyedot Debu & Peralatan Perawatan Lantai",
+      "Perlengkapan Listrik Kecil Lainnya",
+      "Purifier",
+      "Purifier & Humidifier Lainnya",
+      "Setrika & Mesin Uap",
+      "Telepon Kabel",
+      "Telepon Lainnya",
+      "Telepon Wireless"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 172,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Perangkat Dapur",
+    "jenisProduk": [
+      "Air Fryer",
+      "Alat Masak Serbaguna",
+      "Deep Fryer",
+      "Dishwashers",
+      "Dispenser & Filter Air",
+      "Food Processor & Penggiling Daging",
+      "Freezer",
+      "Juicer, Blender & Mesin Kacang Kedelai",
+      "Kompor & Regulator Gas",
+      "Kulkas",
+      "Kulkas Wine",
+      "Mesin Kopi & Aksesoris",
+      "Microwave",
+      "Mixer",
+      "Oven",
+      "Panci Presto",
+      "Pemanas Air",
+      "Pemanggang Roti",
+      "Pembuat Dessert",
+      "Pembuat Roti",
+      "Pembuat Soda",
+      "Pembuat Takoyaki",
+      "Pembuat Waffle & Crepe",
+      "Penanak Nasi",
+      "Penghisap Asap Dapur",
+      "Peralatan Masak Khusus Lainnya",
+      "Perangkat Dapur Lainnya",
+      "Perebus Telur",
+      "Slow Cooker & Mesin Sous Vide"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 173,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Remot Kontrol",
+    "jenisProduk": [
+      "Remot Kontrol"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 174,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "Rokok Elektronik & Shisha",
+    "jenisProduk": [
+      "Aksesoris Rokok Elektronik/Shisha",
+      "Liquid & Perasa Rokok Elektronik/Shisha",
+      "Perlengkapan Rokok Elektronik/Shisha",
+      "Pods, Mods, & Hookah",
+      "Rokok Elektronik Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 175,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "D",
+    "subKategori": "TV & Aksesoris",
+    "jenisProduk": [
+      "Antena TV",
+      "Bracket TV",
+      "TV",
+      "TV & Aksesoris Lainnya",
+      "TV Box & Receiver TV"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 176,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "E",
+    "subKategori": "Peralatan Listrik Kecil",
+    "jenisProduk": [
+      "Flosser Elektrik"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 177,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik",
+    "kategoriProduk": "F",
+    "subKategori": "Kelistrikan",
+    "jenisProduk": [
+      "Alarm",
+      "Anti Petir",
+      "Bel",
+      "Kelistrikan Lainnya",
+      "Pengaman Stop Kontak",
+      "Penghemat Listrik",
+      "Saklar",
+      "Stop Kontak & Sambungan Kabel"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 178,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Elektronik Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Elektronik Lainnya",
+    "jenisProduk": [
+      "Elektronik Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 179,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Gaming & Konsol",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Konsol",
+    "jenisProduk": [
+      "Aksesoris Konsol"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 180,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Gaming & Konsol",
+    "kategoriProduk": "D",
+    "subKategori": "Konsol Game",
+    "jenisProduk": [
+      "Gameboy",
+      "Konsol Game Lainnya",
+      "Nintendo 3DS & DS",
+      "Playstation",
+      "PS Vita",
+      "PSP",
+      "Switch",
+      "Wii",
+      "Xbox"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 181,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Gaming & Konsol",
+    "kategoriProduk": "D",
+    "subKategori": "Video Game",
+    "jenisProduk": [
+      "Game PC",
+      "Gameboy",
+      "Nintendo 3DS & DS",
+      "Playstation",
+      "PS Vita",
+      "PSP",
+      "Switch",
+      "Video Game Lainnya",
+      "Wii",
+      "Xbox"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 182,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Gaming & Konsol Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Gaming & Konsol Lainnya",
+    "jenisProduk": [
+      "Gaming & Konsol Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 183,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "A",
+    "subKategori": "Handphone",
+    "jenisProduk": [
+      "Handphone"
+    ],
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 184,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "A",
+    "subKategori": "Tablet",
+    "jenisProduk": [
+      "Tablet"
+    ],
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 185,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris",
+    "jenisProduk": [
+      "Aksesoris Lainnya",
+      "Aksesoris Perangkat Wearable",
+      "Aksesoris Selfie Lainnya",
+      "Alat Casting",
+      "Baterai",
+      "Casing & Skin Earphone",
+      "Casing & Skin Handphone",
+      "Casing & Skin Lainnya",
+      "Casing & Skin Tablet",
+      "Casing, Penggulung, & Pengikat Kabel",
+      "Charger",
+      "Charger Docking",
+      "Flash & Lampu Selfie Handphone",
+      "Kabel & Adaptor Handphone",
+      "Kabel, Charger & Adaptor Lainnya",
+      "Kartu Memori",
+      "Kipas USB",
+      "Lazypod",
+      "Lensa Tambahan Handphone",
+      "Modem",
+      "Pelindung Layar Handphone",
+      "Phone Holder",
+      "Pouch Handphone",
+      "Powerbank",
+      "Powerbank & Baterai Lainnya",
+      "Powercase",
+      "Stylus",
+      "Tali & Gantungan Handphone",
+      "Tomsis",
+      "Tongsis",
+      "Travel Adaptor",
+      "USB & Lampu Handphone"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 186,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Handphone & Aksesoris Lainnya",
+    "jenisProduk": [
+      "Handphone & Aksesoris Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 187,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Kartu Perdana",
+    "jenisProduk": [
+      "Kartu Perdana"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 188,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Perangkat Wearable",
+    "jenisProduk": [
+      "Pelacak GPS",
+      "Perangkat VR",
+      "Perangkat Wearable Lainnya",
+      "Smartwatch & Fitness Tracker"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 189,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Handphone & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Walkie Talkie",
+    "jenisProduk": [
+      "Walkie Talkie"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 190,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Drone",
+    "jenisProduk": [
+      "Aksesoris Drone"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 191,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Kamera",
+    "jenisProduk": [
+      "Aksesoris Flash Lainnya",
+      "Aksesoris Kamera Lainnya",
+      "Baterai & Battery Grip",
+      "Charger Baterai",
+      "Flash",
+      "Flash Diffuser",
+      "Flash Trigger",
+      "Gimbal & Stabilizer",
+      "Lighting & Perlengkapan Studio Foto",
+      "Printer Foto",
+      "Roll Film & Kertas Foto",
+      "Tas & Casing Kamera",
+      "Tripod, Monopod, & Aksesoris"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 192,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Lensa",
+    "jenisProduk": [
+      "Aksesoris Lensa Lainnya",
+      "Cap Lensa",
+      "Filter Lensa",
+      "Hood Lensa",
+      "Mount & Adaptor Lensa"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 193,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Drone",
+    "jenisProduk": [
+      "Drone"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 194,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Kamera",
+    "jenisProduk": [
+      "Camcorder",
+      "DSLR",
+      "Kamera Action",
+      "Kamera Analog",
+      "Kamera Instan",
+      "Kamera Lainnya",
+      "Kamera Mirrorless",
+      "Kamera Pocket"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 195,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Kamera & Drone Lainnya",
+    "jenisProduk": [
+      "Kamera & Drone Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 196,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Kamera Keamanan",
+    "jenisProduk": [
+      "DVR",
+      "Kamera CCTV",
+      "Kamera Dummy",
+      "Kamera Keamanan Lainnya",
+      "Kamera Pengintai"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 197,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Lensa",
+    "jenisProduk": [
+      "Lensa"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 198,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Kamera & Drone",
+    "kategoriProduk": "D",
+    "subKategori": "Perawatan Kamera",
+    "jenisProduk": [
+      "Blower",
+      "Cleaning Kit",
+      "Dry Box & Cabinet",
+      "Lenspen & Brush",
+      "Perawatan Kamera Lainnya",
+      "Silica Gel"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 199,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "A",
+    "subKategori": "Desktop",
+    "jenisProduk": [
+      "All-in-One Desktop",
+      "Desktop Lainnya",
+      "PC Desktop",
+      "PC Mini",
+      "Server PC"
+    ],
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 200,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "A",
+    "subKategori": "Laptop",
+    "jenisProduk": [
+      "Laptop"
+    ],
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 201,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "A",
+    "subKategori": "Monitor",
+    "jenisProduk": [
+      "Monitor"
+    ],
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 202,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "B",
+    "subKategori": "Komponen Desktop & Laptop",
+    "jenisProduk": [
+      "Casing Komputer",
+      "Fan & Heatsink",
+      "Komponen Desktop & Laptop Lainnya",
+      "Memory RAM",
+      "Motherboard",
+      "Optical Drive",
+      "Power Supply",
+      "Processor",
+      "Thermal Paste",
+      "UPS & Stabilizer",
+      "VGA Card"
+    ],
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 203,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "B",
+    "subKategori": "Printer & Scanner",
+    "jenisProduk": [
+      "3D Printer",
+      "Printer & Scanner Lainnya",
+      "Printer Thermal & Barcode",
+      "Printer, Scanner & Mesin Fotokopi",
+      "Tinta Printer"
+    ],
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 204,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "C",
+    "subKategori": "Penyimpanan Data",
+    "jenisProduk": [
+      "Casing Hard Disk & Docking",
+      "Compact Disc (CD)",
+      "Flashdisk & Flashdisk OTG",
+      "Hard Disk",
+      "Network Attached Storage (NAS)",
+      "Penyimpanan Data Lainnya",
+      "SSD"
+    ],
+    "regular": {
+      "rate": 0.035,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.05,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 205,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "C",
+    "subKategori": "Peralatan Kantor",
+    "jenisProduk": [
+      "Mesin Absensi",
+      "Mesin Ketik",
+      "Penghancur Kertas",
+      "Penghitung Uang",
+      "Peralatan Kantor Lainnya"
+    ],
+    "regular": {
+      "rate": 0.035,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.05,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 206,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Aksesoris Desktop & Laptop",
+    "jenisProduk": [
+      "Aksesoris Desktop & Laptop Lainnya",
+      "Baterai Laptop",
+      "Charger & Adaptor Laptop",
+      "Cooling Pad",
+      "Meja & Stand Laptop",
+      "Mouse Pad",
+      "Pelindung Keyboard & Trackpad",
+      "Pelindung Laptop & Skin Laptop",
+      "Perangkat Video Conference",
+      "USB HUB & Card Reader",
+      "Webcam"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 207,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Keyboard & Mouse",
+    "jenisProduk": [
+      "Drawing Tablet",
+      "Keyboard",
+      "Keyboard & Mouse Lainnya",
+      "Mouse"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 208,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Komponen Desktop & Laptop",
+    "jenisProduk": [
+      "Sound Card"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 209,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Komponen Network",
+    "jenisProduk": [
+      "Kabel Network & Konektor",
+      "Komponen Network Lainnya",
+      "KVM Switch",
+      "Modem & Router Wireless",
+      "Powerline Adapter",
+      "Print Server",
+      "Repeater",
+      "Switch Internet & PoE",
+      "Wireless Adapter & Kartu Network"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 210,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Komputer & Aksesoris Lainnya",
+    "jenisProduk": [
+      "Komputer & Aksesoris Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 211,
+    "kategoriUtama": "Elektronik",
+    "kategori": "Komputer & Aksesoris",
+    "kategoriProduk": "D",
+    "subKategori": "Software",
+    "jenisProduk": [
+      "Software"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 212,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "D",
+    "subKategori": "Alat Tulis",
+    "jenisProduk": [
+      "Alat Tulis Lainnya",
+      "Highlighter",
+      "Penghapus & Tipe X",
+      "Pensil",
+      "Pulpen & Tinta",
+      "Spidol"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 213,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "D",
+    "subKategori": "Pembungkus Kado & Kemasan",
+    "jenisProduk": [
+      "Bubble Wrap"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 214,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Menggambar",
+    "jenisProduk": [
+      "Buku Gambar & Sketsa",
+      "Cat Air & Cat Poster",
+      "Cat Akrilik",
+      "Cat Minyak",
+      "Kanvas Lukis & Easel",
+      "Krayon & Pastel",
+      "Kuas Lukis",
+      "Palet Lukis",
+      "Pensil Warna",
+      "Perlengkapan Menggambar Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 215,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Sekolah & Kantor",
+    "jenisProduk": [
+      "Folder, Organizer Kertas, & Aksesoris",
+      "Gunting",
+      "Kalender",
+      "Kalkulator",
+      "Klip Kertas, Push Pin, & Paku Payung",
+      "Lanyard & Name Tag",
+      "Lem",
+      "Papan Tulis & Papan Jalan",
+      "Pembolong Kertas",
+      "Penggaris, Busur Derajat, & Stensil",
+      "Perlengkapan Sekolah & Kantor Lainnya",
+      "Pisau Ukir & Cutter",
+      "Printer Label",
+      "Rautan",
+      "Stapler & Staples",
+      "Stempel & Bak Stempel",
+      "Tali & Selotip",
+      "Tempat Pensil"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 216,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "D",
+    "subKategori": "Surat-Menyurat",
+    "jenisProduk": [
+      "Amplop & Angpau",
+      "Kartu Pos",
+      "Materai & Perangko",
+      "Surat-Menyurat Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 217,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "E",
+    "subKategori": "Buku Tulis & Kertas",
+    "jenisProduk": [
+      "Art Paper & Art Board",
+      "Buku Tulis & Kertas Lainnya",
+      "Kertas Binder",
+      "Kertas Print & Fotocopy",
+      "Kertas Termal & Continuous Paper",
+      "Label & Stiker",
+      "Memo & Sticky Notes",
+      "Notebook & Notepad",
+      "Pembatas Buku",
+      "Sampul Buku"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 218,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis",
+    "kategoriProduk": "G",
+    "subKategori": "Pembungkus Kado & Kemasan",
+    "jenisProduk": [
+      "Bungkus Kado Lainnya",
+      "Kardus",
+      "Kertas Kado",
+      "Kotak Kado",
+      "Pita Kado",
+      "Tas Kado"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 219,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Alat Tulis Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Buku & Alat Tulis Lainnya",
+    "jenisProduk": [
+      "Buku & Alat Tulis Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 220,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah",
+    "kategoriProduk": "D",
+    "subKategori": "Buku Bacaan",
+    "jenisProduk": [
+      "Komik"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 221,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah",
+    "kategoriProduk": "D",
+    "subKategori": "E-Book",
+    "jenisProduk": [
+      "E-Book"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 222,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah",
+    "kategoriProduk": "D",
+    "subKategori": "Majalah & Koran",
+    "jenisProduk": [
+      "Bisnis",
+      "Gaya Hidup",
+      "Majalah & Koran Lainnya",
+      "Remaja"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 223,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah",
+    "kategoriProduk": "E",
+    "subKategori": "Buku Bacaan",
+    "jenisProduk": [
+      "Action, Crime, & Thrillers",
+      "Agama & Filsafat",
+      "Biografi & Memoar",
+      "Bisnis & Investasi",
+      "Buku Anak-Anak",
+      "Buku Audio",
+      "Buku Bacaan Lainnya",
+      "Buku Resep & Masak",
+      "Fantasi",
+      "Hobi",
+      "Kamus",
+      "Kedokteran",
+      "Kesehatan, Kebugaran, & Diet",
+      "Komputer & Teknologi",
+      "Literatur Klasik",
+      "Musik",
+      "Parenting & Keluarga",
+      "Pendidikan",
+      "Pengembangan Diri & Karir",
+      "Pertanian, Kehutanan, & Perikanan",
+      "Politik, Hukum, & Ilmu Sosial",
+      "Psikologi & Hubungan",
+      "Romansa",
+      "Sains & Matematika",
+      "Sejarah & Budaya",
+      "Seni, Desain, & Fotografi",
+      "Stiker & Buku Mewarnai",
+      "Wisata & Turisme"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 224,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah",
+    "kategoriProduk": "H",
+    "subKategori": "Buku Bacaan",
+    "jenisProduk": [
+      "Buku Bayi"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 225,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Buku & Majalah Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Buku & Majalah Lainnya",
+    "jenisProduk": [
+      "Buku & Majalah Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 226,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "G",
+    "subKategori": "Grooming Hewan",
+    "jenisProduk": [
+      "Grooming Hewan Lainnya",
+      "Perawatan Kuku",
+      "Perawatan Mulut",
+      "Perawatan Rambut"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 227,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian & Aksesoris Hewan",
+    "jenisProduk": [
+      "Aksesoris Leher",
+      "Aksesoris Rambut",
+      "Kacamata",
+      "Pakaian & Aksesoris Hewan Lainnya",
+      "Pakaian Hewan",
+      "Perlengkapan Hujan",
+      "Sepatu Boot",
+      "Kaos Kaki & Pelindung Kaki Hewan",
+      "Topi"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 228,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "G",
+    "subKategori": "Perawatan Kesehatan Hewan",
+    "jenisProduk": [
+      "Anti Kutu",
+      "Obat",
+      "Perawatan Kesehatan Hewan Lainnya",
+      "Vitamin & Suplemen"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 229,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Hewan Peliharaan",
+    "jenisProduk": [
+      "Aksesoris Hewan Peliharaan Lainnya",
+      "Chew, Tulang & Bola",
+      "Frisbee",
+      "Furniture Hewan Lainnya",
+      "Habitat & Aksesoris",
+      "Kalung, Tali, Harness & Brangus",
+      "Kandang & Crate",
+      "Kebutuhan Akuarium",
+      "Mainan Anjing & Kucing Lainnya",
+      "Mainan Burung",
+      "Mainan Hewan Peliharaan Kecil",
+      "Mainan Lainnya",
+      "Mangkuk & Feeder",
+      "Perlengkapan Travelling",
+      "Rumah",
+      "Scratching Pad & Post",
+      "Stick & Chaser",
+      "Tempat Tidur & Matras"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 230,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "H",
+    "subKategori": "Litter & Toilet",
+    "jenisProduk": [
+      "Litter & Toilet Lainnya",
+      "Litter Box Kucing",
+      "Plastik & Sekop Kotoran",
+      "Popok",
+      "Tempat Tidur & Litter Hewan Peliharaan Kecil",
+      "Training Pad & Tray Anjing"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 231,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan",
+    "kategoriProduk": "H",
+    "subKategori": "Makanan Hewan",
+    "jenisProduk": [
+      "Cemilan Anjing",
+      "Makanan Anjing",
+      "Makanan Hewan Air",
+      "Makanan Hewan Lainnya",
+      "Makanan Hewan Peliharaan Kecil",
+      "Makanan Kucing",
+      "Makanan Reptil",
+      "Pakan Burung",
+      "Snack Hewan Peliharaan Kecil",
+      "Snack Kucing"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 232,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hewan Peliharaan Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Hewan Peliharaan Lainnya",
+    "jenisProduk": [
+      "Hewan Peliharaan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 233,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "E",
+    "subKategori": "Alat & Aksesoris Musik",
+    "jenisProduk": [
+      "Aksesoris Musik",
+      "Alat & Aksesoris Musik Lainnya",
+      "Alat Musik Perkusi",
+      "Alat Musik Petik Lainnya",
+      "Alat Musik Tiup",
+      "Gitar & Gitar Bass",
+      "Keyboard & Piano",
+      "Ukulele"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 234,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "E",
+    "subKategori": "Album Foto",
+    "jenisProduk": [
+      "Album Foto"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 235,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi Lainnya",
+    "kategoriProduk": "E",
+    "subKategori": "Hobi & Koleksi Lainnya",
+    "jenisProduk": [
+      "Hobi & Koleksi Lainnya"
+    ],
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 236,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "F",
+    "subKategori": "Perlengkapan Menjahit",
+    "jenisProduk": [
+      "Perlengkapan Menjahit"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 237,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "G",
+    "subKategori": "CD, DVD & Bluray",
+    "jenisProduk": [
+      "CD, DVD & Bluray"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 238,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "G",
+    "subKategori": "Piringan Hitam",
+    "jenisProduk": [
+      "Piringan Hitam"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 239,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "G",
+    "subKategori": "Souvenir & Hadiah",
+    "jenisProduk": [
+      "Celengan",
+      "Gantungan Kunci",
+      "Kipas Tangan",
+      "Magnet Kulkas",
+      "Souvenir Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 240,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "H",
+    "subKategori": "Koleksi",
+    "jenisProduk": [
+      "Action Figure",
+      "Batu Akik & Alam",
+      "Koin & Uang Kertas",
+      "Koleksi Anime & Manga",
+      "Koleksi Lainnya",
+      "Koleksi Olahraga",
+      "Koleksi Penggemar",
+      "Mecha Model & Diecast",
+      "Patung",
+      "Vehicle Model & Diecast"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 241,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Hobi & Koleksi",
+    "kategoriProduk": "H",
+    "subKategori": "Mainan & Games",
+    "jenisProduk": [
+      "Dadu, Board Game & Mainan Kartu",
+      "Gangsing",
+      "Kendama",
+      "Kubus Rubik",
+      "Mainan & Aksesoris Remote Control",
+      "Mainan & Games Lainnya",
+      "Mainan Kapsul",
+      "Mainan Prank",
+      "Mainan Sulap",
+      "Yo-yo"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 242,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Eksterior Mobil",
+    "jenisProduk": [
+      "Aksesoris Eksterior Mobil Lainnya",
+      "Aksesoris Plat Nomor Mobil",
+      "Antena Mobil",
+      "Hiasan Mobil",
+      "Karpet Lumpur",
+      "Klakson & Aksesoris",
+      "Sarung Mobil",
+      "Sill Plate Mobil",
+      "Spion & Aksesoris",
+      "Stiker, Logo, & Emblem Mobil",
+      "Talang Air"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 243,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Interior Mobil",
+    "jenisProduk": [
+      "Aksesoris Interior Mobil Lainnya",
+      "Amplifier, Speaker, & Subwoofer",
+      "Holder Handphone",
+      "HUD, Speedometer, & Gauge",
+      "Jok & Sarung Jok Mobil",
+      "Kamera Parkir",
+      "Karpet Mobil",
+      "Kunci Stir",
+      "Matras Mobil",
+      "Navigasi & AV Receiver",
+      "Organizer & Kompartemen Mobil",
+      "Parfum Mobil",
+      "Pedal & Stik Persneling",
+      "Pengisi Daya USB & Bluetooth Transmitter",
+      "Penyangga Leher & Punggung",
+      "Setir & Sarung Setir Mobil",
+      "Sunshield & Pelindung Dashboard"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 244,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Gantungan & Sarung Kunci Kendaraan",
+    "jenisProduk": [
+      "Gantungan & Sarung Kunci Kendaraan"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 245,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Mobil",
+    "jenisProduk": [
+      "Mobil"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 246,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Oli & Pelumas Kendaraan",
+    "jenisProduk": [
+      "Aditif & Penghemat Bahan Bakar",
+      "Cairan Otomotif Lainnya",
+      "Coolant",
+      "Gemuk & Pelumas",
+      "Oli",
+      "Pelumas Rem",
+      "Pelumas Transmisi",
+      "Perawatan Kendaraan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 247,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Perawatan Kendaraan",
+    "jenisProduk": [
+      "Pembersih Kaca & Anti-Air",
+      "Perawatan Ban & Velg",
+      "Perawatan Interior",
+      "Perawatan Kendaraan Lainnya",
+      "Poles, Coating, & Sealant Mobil",
+      "Sabun Cuci & Wax"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 248,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Perkakas & Perlengkapan Kendaraan",
+    "jenisProduk": [
+      "Pengukur Tekanan Udara Ban",
+      "Peralatan Uji, Diagnosa, & Servis",
+      "Perkakas & Perlengkapan Kendaraan Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 249,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil",
+    "kategoriProduk": "G",
+    "subKategori": "Suku Cadang Mobil",
+    "jenisProduk": [
+      "Aki & Aksesoris",
+      "Ban Mobil & Aksesoris",
+      "Bearing Roda & Seal Mobil",
+      "Bodi, Rangka, & Bemper Mobil",
+      "Busi",
+      "Fan Belt, Selang, & Pulley Mobil",
+      "Filter Oli",
+      "Filter Udara",
+      "Kelistrikan Lainnya",
+      "Knalpot Mobil",
+      "Kumparan Pengapian",
+      "Lampu Mobil",
+      "Pengapian Lainnya",
+      "Piston Mobil",
+      "Radiator & Sistem Pendingin Mobil",
+      "Rantai, Transmisi, & Kopling",
+      "Roda, Velg, & Aksesoris",
+      "Shock, Strutbar, & Suspensi Mobil",
+      "Sistem Bahan Bakar",
+      "Sistem Pengereman Mobil",
+      "Suku Cadang Mesin Lainnya",
+      "Suku Cadang Mobil Lainnya",
+      "Wiper & Penyemprot Wiper Mobil"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 250,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Mobil Lainnya",
+    "kategoriProduk": "G",
+    "subKategori": "Mobil Lainnya",
+    "jenisProduk": [
+      "Mobil Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 251,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Olahraga & Aktivitas Outdoor",
+    "jenisProduk": [
+      "Jas Hujan"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 252,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "G",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": [
+      "Pakaian Olahraga Anak"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 253,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "H",
+    "subKategori": "Aksesoris Olahraga & Aktivitas Outdoor",
+    "jenisProduk": [
+      "Aksesoris Olahraga & Aktivitas Outdoor Lainnya",
+      "Alat Pelindung Gym",
+      "Alat Training",
+      "Gelang Olahraga",
+      "Ikat Kepala Olahraga",
+      "Payung",
+      "Pelindung Mulut & Sport Tape",
+      "Stopwatch & Pedometer",
+      "Tas Anti Air",
+      "Tas Sepatu",
+      "Topi Olahraga & Aktivitas Outdoor"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 254,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "H",
+    "subKategori": "Alat Rekreasi Olahraga & Aktivitas Outdoor",
+    "jenisProduk": [
+      "Ab Roller",
+      "Aksesoris Tenda",
+      "Alat Fitness",
+      "Alat Masak Camping",
+      "Alat Olahraga Otot Tangan",
+      "Alat Pancing Lainnya",
+      "Alat Pelacak Ikan",
+      "Alat Pelindung & Training",
+      "Alat Rekreasi Olahraga & Aktivitas Outdoor Lainnya",
+      "Anak Panah",
+      "Balok, Ring, & Foam Roller Yoga",
+      "Baseball & Softball",
+      "Basket Lainnya",
+      "Bersepeda Lainnya",
+      "Bet Tenis Meja",
+      "Billiard",
+      "Boardsport Lainnya",
+      "Boating",
+      "Bola Basket",
+      "Bola Golf",
+      "Bola Gym",
+      "Bola Kaki",
+      "Bola Tenis",
+      "Bola Tenis Meja",
+      "Bola Voli",
+      "Bulu Tangkis Lainnya",
+      "Busur Panah",
+      "Camping & Hiking Lainnya",
+      "Dart",
+      "Diving & Renang Lainnya",
+      "Fitness Lainnya",
+      "Golf Lainnya",
+      "Helm & Alat Pelindung",
+      "Helm Sepeda",
+      "Ice Skating & Olahraga Musim Dingin",
+      "Jaket Pelampung",
+      "Jaring Ikan",
+      "Joran & Gulungan Pancing",
+      "Kacamata Renang",
+      "Kail Pancing",
+      "Kaki Katak",
+      "Kok Bulu Tangkis",
+      "Kompas",
+      "Komponen & Aksesoris Sepeda",
+      "Lampu & Senter Camping",
+      "Latihan Beban",
+      "Masker Diving",
+      "Matras & Keranjang Piknik",
+      "Matras Yoga",
+      "Net Bulu Tangkis",
+      "Net Tenis",
+      "Net Tenis Meja",
+      "Net Voli",
+      "Panahan Lainnya",
+      "Panjat Tebing",
+      "Papan Pelampung",
+      "Piringan Pemutar Pinggang",
+      "Pisau Camping & Peralatan Survival",
+      "Pull Up & Push Up Bar",
+      "Raket Bulu Tangkis",
+      "Raket Tenis",
+      "Resistance Band",
+      "Ring Basket",
+      "Rugbi",
+      "Sabuk Bela Diri",
+      "Samsak & Bantalan Tinju",
+      "Sarung Tangan & Deker",
+      "Sarung Tangan, Hand Wrap, & Helm",
+      "Segway & Hoverboard",
+      "Selancar & Wakeboard",
+      "Senar Pancing",
+      "Senter Diving",
+      "Sepak Bola, Futsal, & Sepak Takraw Lainnya",
+      "Sepeda",
+      "Skateboard & Sepatu Roda",
+      "Skuter & Sepeda Roda Satu",
+      "Sleeping Bag",
+      "Squash",
+      "Stik Golf",
+      "Tali Skipping",
+      "Tas Golf",
+      "Tas Pancing",
+      "Tempat Tidur Gantung",
+      "Tenis Lainnya",
+      "Tenis Meja Lainnya",
+      "Teropong, Monokuler, & Teleskop",
+      "Tiang Gawang & Net",
+      "Tinju & Bela Diri Lainnya",
+      "Tongkat Hiking",
+      "Topi Renang",
+      "Umpan Pancing",
+      "Voli Lainnya",
+      "Yoga & Pilates Lainnya"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 255,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "H",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": [
+      "Atasan Olahraga",
+      "Baju Renang Wanita",
+      "Bawahan Olahraga",
+      "Bikini",
+      "Celana Renang Pria",
+      "Jaket Olahraga",
+      "Jersey",
+      "Pakaian Olahraga & Aktivitas Outdoor Lainnya",
+      "Pakaian Renang Lainnya",
+      "Rash Guard",
+      "Set Pakaian Olahraga & Aktivitas Outdoor",
+      "Sports Bra"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 256,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor",
+    "kategoriProduk": "H",
+    "subKategori": "Sepatu Olahraga",
+    "jenisProduk": [
+      "Sepatu Basket",
+      "Sepatu Bulu Tangkis",
+      "Sepatu Futsal",
+      "Sepatu Hiking",
+      "Sepatu Lari",
+      "Sepatu Olahraga Anak",
+      "Sepatu Olahraga Lainnya",
+      "Sepatu Sepak Bola",
+      "Sepatu Tenis",
+      "Sepatu Training",
+      "Sepatu Voli"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 257,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Olahraga & Outdoor Lainnya",
+    "kategoriProduk": "H",
+    "subKategori": "Olahraga & Outdoor Lainnya",
+    "jenisProduk": [
+      "Olahraga & Outdoor Lainnya"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 258,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "D",
+    "subKategori": "Pengharum Ruangan & Aromaterapi",
+    "jenisProduk": [
+      "Diffuser, Humidifier, & Oil Burner",
+      "Minyak Esensial",
+      "Pengharum Ruangan",
+      "Pengharum Ruangan & Aromaterapi Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 259,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "D",
+    "subKategori": "Peralatan Makan",
+    "jenisProduk": [
+      "Alat Makan",
+      "Botol Minum & Aksesoris",
+      "Cangkir, Mug, & Gelas",
+      "Jug, Pitcher, & Aksesoris",
+      "Kantong & Set Teh",
+      "Mangkuk",
+      "Peralatan Makan Lainnya",
+      "Piring",
+      "Sedotan",
+      "Tatakan Piring & Gelas",
+      "Tudung Saji & Penutup Makanan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 260,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Dapur",
+    "jenisProduk": [
+      "Alat & Aksesoris Pemanggang",
+      "Alat & Dekorasi Baking",
+      "Gelas & Sendok Takar",
+      "Panci",
+      "Parutan & Peeler",
+      "Penggorengan",
+      "Pengocok Telur",
+      "Pisau & Gunting Dapur",
+      "Saringan",
+      "Sealer",
+      "Spatula & Capitan",
+      "Talenan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 261,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Keagamaan",
+    "jenisProduk": [
+      "Perlengkapan Keagamaan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 262,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah Lainnya",
+    "kategoriProduk": "D",
+    "subKategori": "Perlengkapan Rumah Lainnya",
+    "jenisProduk": [
+      "Perlengkapan Rumah Lainnya"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 263,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "F",
+    "subKategori": "Dekorasi",
+    "jenisProduk": [
+      "Furniture & Pelindung Furniture"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 264,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "F",
+    "subKategori": "Furniture",
+    "jenisProduk": [
+      "Bantal Sofa",
+      "Furniture Lainnya",
+      "Kursi & Bangku",
+      "Lemari & Kabinet",
+      "Lemari Pakaian",
+      "Meja & Meja Tulis",
+      "Penahan Pintu",
+      "Rak & Rak Gantung",
+      "Rangka & Sandaran Tempat Tidur",
+      "Sofa"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 265,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "F",
+    "subKategori": "Kamar Tidur",
+    "jenisProduk": [
+      "Bantal",
+      "Guling",
+      "Kamar Tidur Lainnya",
+      "Kelambu",
+      "Matras",
+      "Matras Pendingin",
+      "Pelindung Matras",
+      "Selimut",
+      "Sprei, Sarung Bantal, & Sarung Guling"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 266,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "F",
+    "subKategori": "Lampu",
+    "jenisProduk": [
+      "Lampu"
+    ],
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 267,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Alat Pengaman",
+    "jenisProduk": [
+      "Alat Pengaman Lainnya",
+      "Brankas",
+      "Pemadam Api",
+      "Perangkat Pintu & Gembok"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 268,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Alat Pertukangan & Renovasi Rumah",
+    "jenisProduk": [
+      "Alat Pemeliharaan Rumah Lainnya",
+      "Amplas, Mesin Amplas, & Aksesoris",
+      "Atap & Lantai",
+      "Bak Cuci Piring & Kran Air",
+      "Blower",
+      "Bor, Obeng & Aksesoris",
+      "Cat & Pelapis Dinding",
+      "Electrical Tester & Multimeter",
+      "Gergaji, Mesin Pemotong, & Gerinda",
+      "Kompresor Udara",
+      "Kunci Set",
+      "Material Konstruksi",
+      "Meteran",
+      "Meteran Jalan",
+      "Paku, Sekrup, & Fastener",
+      "Palu",
+      "Pengukur Jarak",
+      "Perekat & Tape",
+      "Perkakas Lainnya",
+      "Perlengkapan Las",
+      "Pintu & Jendela",
+      "Pompa Air & Aksesoris",
+      "Pompa Udara & Aksesoris",
+      "Power Generator",
+      "Pressure Washer",
+      "Sarung Tangan, Kacamata, & Masker Pelindung",
+      "Tang",
+      "Tangga",
+      "Tenda & Terpal",
+      "Tool Box",
+      "Troli"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 269,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Kamar Mandi",
+    "jenisProduk": [
+      "Bak Mandi & Bathtub",
+      "Dispenser, Tempat, & Kotak Sabun",
+      "Handuk Kimono",
+      "Handuk Mandi",
+      "Handuk Mandi & Kimono Lainnya",
+      "Handuk Wajah & Lap Tangan",
+      "Kamar Mandi Lainnya",
+      "Kepala Shower & Spray Bidet",
+      "Kloset & Alas Dudukan Kloset",
+      "Pegangan Kamar Mandi",
+      "Rak & Kabinet Kamar Mandi",
+      "Shower Cap",
+      "Sikat & Spons Badan",
+      "Tempat Duduk Mandi & Pispot",
+      "Tempat Sikat Gigi & Dispenser Odol",
+      "Tirai Shower"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 270,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Perawatan Rumah",
+    "jenisProduk": [
+      "Conditioner & Pelembut Pakaian",
+      "Detergen",
+      "Pembasmi Hama & Gulma",
+      "Pembersih",
+      "Pengharum Pakaian",
+      "Perawatan Pakaian Lainnya",
+      "Perawatan Rumah Lainnya",
+      "Tisu & Tisu Kertas",
+      "Tisu Toilet"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 271,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Perlengkapan Pesta",
+    "jenisProduk": [
+      "Backdrop & Spanduk",
+      "Balon",
+      "Kartu Ucapan",
+      "Peralatan Makan Sekali Pakai",
+      "Perlengkapan Pesta Lainnya",
+      "Selempang/Sash",
+      "Topi & Topeng Pesta",
+      "Wooden Clip"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 272,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "G",
+    "subKategori": "Taman",
+    "jenisProduk": [
+      "Bibit & Umbi",
+      "Dekorasi Taman",
+      "Mesin Pemotong Rumput",
+      "Peralatan Berkebun",
+      "Pot & Planter",
+      "Pupuk",
+      "Sistem Pengairan",
+      "Taman Lainnya",
+      "Tanah & Media Tanam",
+      "Tanaman"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 273,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "H",
+    "subKategori": "Dekorasi",
+    "jenisProduk": [
+      "Bingkai Foto & Pajangan Dinding",
+      "Bunga",
+      "Cermin",
+      "Dekorasi Lainnya",
+      "Jam Dinding",
+      "Karpet & Tikar",
+      "Keset",
+      "Lilin & Tempat Lilin",
+      "Taplak Meja",
+      "Tirai & Tirai Gulung",
+      "Vas & Bejana",
+      "Wallpaper & Stiker Dinding"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 274,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "H",
+    "subKategori": "Organizer Rumah",
+    "jenisProduk": [
+      "Box Penyimpanan Sepatu",
+      "Box, Tas, & Keranjang Penyimpanan",
+      "Gantungan",
+      "Organizer Lemari Pakaian",
+      "Organizer Meja",
+      "Organizer Perhiasan",
+      "Organizer Rumah Lainnya",
+      "Pengait",
+      "Tas & Keranjang Laundry",
+      "Tempat Tisu"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 275,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "H",
+    "subKategori": "Penghangat Tangan & Kantong Kompres",
+    "jenisProduk": [
+      "Penghangat Tangan & Kantong Kompres"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 276,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "H",
+    "subKategori": "Perawatan Rumah",
+    "jenisProduk": [
+      "Basin, Ember, & Gayung Air",
+      "Kain Pel",
+      "Kantong Plastik & Kantong Sampah",
+      "Kemoceng",
+      "Lap",
+      "Sapu",
+      "Sikat Pembersih",
+      "Spons & Scouring Pad",
+      "Tali Jemuran & Rak Pengering",
+      "Tempat Sampah"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 277,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Perlengkapan Rumah",
+    "kategoriProduk": "H",
+    "subKategori": "Perlengkapan Dapur",
+    "jenisProduk": [
+      "Aluminium Foil",
+      "Celemek & Pelindung Tangan",
+      "Cling Wrap",
+      "Korek Api & Pemantik",
+      "Pembuka Tutup Kaleng & Botol",
+      "Peralatan Teh, Kopi, & Bartending",
+      "Perlengkapan Dapur Lainnya",
+      "Rak Dapur",
+      "Tempat Penyimpanan Makanan",
+      "Timbangan Dapur"
+    ],
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 278,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Sepeda Motor",
+    "kategoriProduk": "G",
+    "subKategori": "Aksesoris Sepeda Motor",
+    "jenisProduk": [
+      "Aksesoris Sepeda Motor Lainnya",
+      "Box Motor",
+      "Dudukan Handphone",
+      "Jok & Sarung Jok Motor",
+      "Karpet Lumpur",
+      "Karpet Motor",
+      "Kunci & Keamanan",
+      "Sarung Motor",
+      "Speedometer, Odometer, & Gauge Motor",
+      "Spion Motor & Aksesoris",
+      "Stiker, Logo, & Emblem"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 279,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Sepeda Motor",
+    "kategoriProduk": "G",
+    "subKategori": "Helm & Aksesoris Pengendara Motor",
+    "jenisProduk": [
+      "Helm & Aksesoris Pengendara Motor"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 280,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Sepeda Motor",
+    "kategoriProduk": "G",
+    "subKategori": "Sepeda Motor",
+    "jenisProduk": [
+      "Sepeda Motor"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 281,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Sepeda Motor",
+    "kategoriProduk": "G",
+    "subKategori": "Suku Cadang Motor",
+    "jenisProduk": [
+      "Aki & Aksesoris",
+      "Ban Motor & Aksesoris",
+      "Bearing",
+      "Bodi & Rangka Motor",
+      "Busi",
+      "CDI & ECU",
+      "Filter Udara",
+      "Kabel & Selang",
+      "Klakson & Aksesoris",
+      "Knalpot Motor",
+      "Kopling",
+      "Kumparan Pengapian",
+      "Lampu Motor",
+      "Pengapian & Suku Cadang Mesin Lainnya",
+      "Piston",
+      "Radiator",
+      "Rantai & Gir",
+      "Rantai, Transmisi, & Kopling Lainnya",
+      "Roda, Velg, & Aksesoris",
+      "Shock, Strut, & Suspensi Motor",
+      "Sistem Bahan Bakar",
+      "Sistem Pengereman",
+      "Suku Cadang Motor Lainnya",
+      "V-Belt"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 282,
+    "kategoriUtama": "Lifestyle",
+    "kategori": "Sepeda Motor Lainnya",
+    "kategoriProduk": "G",
+    "subKategori": "Sepeda Motor Lainnya",
+    "jenisProduk": [
+      "Sepeda Motor Lainnya"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 283,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Belanja",
+    "jenisProduk": [
+      "Ritel"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 284,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Gaming",
+    "jenisProduk": [
+      "Gaming"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 285,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Layanan",
+    "jenisProduk": [
+      "Layanan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 286,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Listrik, Gas, & Air",
+    "jenisProduk": [
+      "Listrik, Gas, & Air"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 287,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Makanan & Minuman",
+    "jenisProduk": [
+      "Dine-in & Takeaway"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 288,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Streaming",
+    "jenisProduk": [
+      "Streaming"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 289,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Telco",
+    "jenisProduk": [
+      "Data",
+      "Pulsa"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 290,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Tiket Event",
+    "jenisProduk": [
+      "Acara, Pameran, & Konferensi",
+      "Hiburan",
+      "Konser & Pertunjukan"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 291,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "D",
+    "subKategori": "Travel & Tour",
+    "jenisProduk": [
+      "Paket Tour",
+      "Penerbangan",
+      "Voucher Hotel"
+    ],
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  {
+    "id": 292,
+    "kategoriUtama": "Tiket, Voucher, & Layanan",
+    "kategori": "Tiket, Voucher, & Layanan",
+    "kategoriProduk": "G",
+    "subKategori": "E-Money",
+    "jenisProduk": [
+      "E-Money"
+    ],
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  }
+]
