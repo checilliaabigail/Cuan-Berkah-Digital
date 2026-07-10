@@ -1,1 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Kalkulator Cuan Shopee | Cuan Berkah Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .search-wrapper { position: relative; }
+        .search-results {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            max-height: 250px;
+            overflow-y: auto;
+            background: white;
+            z-index: 1000;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            margin-top: 4px;
+        }
+        .search-results.show { display: block; }
+        .search-result-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.15s;
+        }
+        .search-result-item:last-child { border-bottom: none; }
+        .search-result-item:hover { background: #f7fafc; }
+        .search-result-item .product-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #2d3748;
+        }
+        .search-result-item .product-path {
+            font-size: 0.75rem;
+            color: #718096;
+            margin-top: 2px;
+        }
+        .search-result-item .product-fee {
+            font-size: 0.8rem;
+            color: #4a5568;
+            font-weight: 600;
+            background: #edf2f7;
+            padding: 2px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+        .sub-kategori-display {
+            background: #f7fafc;
+            cursor: not-allowed;
+            color: #4a5568;
+        }
+        .sub-kategori-display:focus {
+            box-shadow: none;
+            border-color: #e2e8f0;
+        }
+        .search-results::-webkit-scrollbar { width: 6px; }
+        .search-results::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+        .search-results::-webkit-scrollbar-thumb { background: #c4b5d4; border-radius: 10px; }
+        .search-results::-webkit-scrollbar-thumb:hover { background: #764ba2; }
+        @media (max-width: 600px) {
+            .search-result-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+            .search-result-item .product-fee { align-self: flex-start; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛍️ KALKULATOR CUAN SHOPEE</h1>
+            <p>Cuan Berkah Digital | Private Coaching • Ads Management • Affiliator Agency</p>
+        </div>
 
+        <!-- CARD 1: HARGA JUAL -->
+        <div class="card">
+            <div class="card-title"><span>📦</span> HARGA JUAL</div>
+            <div class="form-group">
+                <label>Nama Produk</label>
+                <input type="text" id="productName" placeholder="Contoh: Kacamata Hitam">
+            </div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>Harga Jual Produk</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="hargaJual" value="" step="1000" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Diskon Toko</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="diskon" value="" step="1000" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Voucher Toko</label>
+                <div class="input-group">
+                    <span>Rp</span>
+                    <input type="number" id="voucher" value="" step="500" placeholder="0">
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="result-box" style="background: #e0e7ff;">
+                <span class="result-label">💰 Harga Jual Nett</span>
+                <span class="result-value" id="hargaNett">Rp 0</span>
+            </div>
+        </div>
+
+        <!-- CARD 2: BIAYA SHOPEE -->
+        <div class="card">
+            <div class="card-title"><span>🏪</span> BIAYA SHOPEE</div>
+
+            <div class="form-group">
+                <label>Tipe Toko</label>
+                <select id="tipeToko">
+                    <option value="nonStar">Non-Star / Star / Star+</option>
+                    <option value="mall">Shopee Mall</option>
+                </select>
+                <div class="info-text">Memilih Shopee Mall akan mengaktifkan biaya pembayaran 1,8%</div>
+            </div>
+
+            <div class="form-group">
+                <label>Kategori Produk</label>
+                <select id="kategori">
+                    <option value="fashion">Fashion</option>
+                    <option value="fmcg">FMCG (Ibu & Bayi, Kesehatan, Makanan)</option>
+                    <option value="elektronik">Elektronik</option>
+                    <option value="lifestyle">Lifestyle</option>
+                    <option value="lainnya">Lainnya (Tiket, Voucher, Layanan)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Cari Produk (ketik nama produk)</label>
+                <div class="search-wrapper">
+                    <input type="text" id="searchProduk" placeholder="Ketik nama produk..." autocomplete="off">
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+                <div class="info-text">Ketik nama produk, sistem akan mencari sub kategori yang sesuai</div>
+            </div>
+
+            <div class="form-group">
+                <label>Sub Kategori (otomatis)</label>
+                <input type="text" id="subKategoriDisplay" class="sub-kategori-display"
+                    placeholder="Pilih produk di atas atau pilih manual di bawah" readonly>
+                <input type="hidden" id="subKategori" value="">
+                <div class="info-text">Sub kategori akan terisi otomatis setelah Anda memilih produk</div>
+            </div>
+
+            <div class="form-group">
+                <label>Atau pilih Sub Kategori Manual</label>
+                <select id="subKategoriSelect">
+                    <option value="">-- Pilih Sub Kategori --</option>
+                </select>
+                <div class="info-text">Pilih sub kategori manual jika produk tidak ditemukan</div>
+            </div>
+
+            <div class="result-box" style="background: #fef3c7;">
+                <span class="result-label">📋 Biaya Administrasi</span>
+                <span class="result-value" id="biayaAdminText">0% → Rp 0</span>
+            </div>
+
+            <div class="result-box" style="background: #fef3c7;">
+                <span class="result-label">💳 Biaya Pembayaran</span>
+                <span class="result-value" id="biayaPembayaranText">0% → Rp 0</span>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="form-group">
+                <label>Rata-rata Produk per Pesanan (pcs)</label>
+                <div class="input-group">
+                    <input type="number" id="basketSize" value="" step="1" min="1"
+                        placeholder="Contoh: 3"
+                        style="border-radius: 10px 0 0 10px; border-right: none;">
+                    <span style="border-radius: 0 10px 10px 0; border-left: none;
+                        min-width: 50px; background: #f7fafc; padding: 12px;
+                        font-weight: 600; color: #4a5568; text-align: center;">pcs</span>
+                </div>
+                <div class="info-text">Biaya proses pesanan akan dihitung otomatis: Rp 1.250 ÷ jumlah pcs</div>
+            </div>
+
+            <div class="form-group">
+                <label>Ukuran Barang</label>
+                <select id="ukuranBarang">
+                    <option value="biasa">Ukuran Biasa (sisi terpanjang ≤ 40 cm)</option>
+                    <option value="khusus">Ukuran Khusus / Besar (sisi terpanjang > 40 cm)</option>
+                </select>
+                <div class="info-text">
+                    Ukuran biasa: panjang + lebar + tinggi ≤ 100 cm.
+                    Ukuran khusus: salah satu sisi > 40 cm atau total > 100 cm.
+                </div>
+            </div>
+
+            <div class="result-box" style="background: #f0fdf4;">
+                <span class="result-label">📦 Gratis Ongkir XTRA</span>
+                <span class="result-value" id="gratisOngkirXtraText">Rp 0</span>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="toggle-group">
+                <div class="toggle-item">
+                    <label>Promo XTRA</label>
+                    <select id="promoXTRA">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya</option>
+                    </select>
+                </div>
+                <div class="toggle-item">
+                    <label>Promo XTRA+</label>
+                    <select id="promoXTRAplus">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya</option>
+                    </select>
+                </div>
+                <div class="toggle-item">
+                    <label>Live XTRA</label>
+                    <select id="liveXTRA">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya</option>
+                        <option value="YesPromo">Ya (+ Promo Xtra/+)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="promoXTRABox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">🎯 Biaya Promo XTRA (4,5%)</span>
+                <span class="result-value" id="biayaPromoXTRAText">Rp 0</span>
+            </div>
+            <div id="promoXTRAplusBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">🎯 Biaya Promo XTRA+ (6,5%)</span>
+                <span class="result-value" id="biayaPromoXTRAplusText">Rp 0</span>
+            </div>
+            <div id="liveXTRABox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">🎥 Biaya Live XTRA</span>
+                <span class="result-value" id="biayaLiveXTRAText">Rp 0</span>
+            </div>
+
+            <div class="toggle-group">
+                <div class="toggle-item">
+                    <label>SPayLater XTRA 0%</label>
+                    <select id="spayLater">
+                        <option value="No">Tidak</option>
+                        <option value="Tenor3">Tenor 3 bulan</option>
+                        <option value="Tenor6">Tenor 6 bulan</option>
+                    </select>
+                </div>
+                <div class="toggle-item">
+                    <label>Hemat Biaya Kirim</label>
+                    <select id="hematKirim">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya (Rp 350)</option>
+                    </select>
+                </div>
+                <div class="toggle-item">
+                    <label>Asuransi Pengiriman</label>
+                    <select id="asuransi">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya (0,5%)</option>
+                    </select>
+                </div>
+                <div class="toggle-item">
+                    <label>Produk PO</label>
+                    <select id="produkPO">
+                        <option value="No">Tidak</option>
+                        <option value="Yes3">Ya (3%)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="spayLaterBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">💳 Biaya SPayLater XTRA 0%</span>
+                <span class="result-value" id="biayaSPayLaterText">Rp 0</span>
+            </div>
+            <div id="hematKirimBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">🚚 Hemat Biaya Kirim</span>
+                <span class="result-value" id="biayaHematKirimText">Rp 0</span>
+            </div>
+            <div id="asuransiBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">🛡️ Asuransi Pengiriman (0,5%)</span>
+                <span class="result-value" id="biayaAsuransiText">Rp 0</span>
+            </div>
+            <div id="produkPOBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">📦 Biaya Produk PO (3%)</span>
+                <span class="result-value" id="biayaPOText">Rp 0</span>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="form-group">
+                <label>Biaya Shopee Lain-Lain (%)</label>
+                <div class="input-group">
+                    <input type="number" id="biayaLainPersen" value="" step="0.1" min="0"
+                        placeholder="Contoh: 2.5"
+                        style="border-radius: 10px 0 0 10px; border-right: none;">
+                    <span style="border-radius: 0 10px 10px 0; border-left: none;
+                        min-width: 30px; background: #f7fafc; padding: 12px;
+                        font-weight: 600; color: #4a5568; text-align: center;">%</span>
+                </div>
+                <div class="info-text">Isi angka lalu tekan Tab atau klik di luar untuk menghitung</div>
+            </div>
+            <div id="biayaLainPersenBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">📋 Biaya Lain-Lain (%)</span>
+                <span class="result-value" id="biayaLainPersenText">Rp 0</span>
+            </div>
+
+            <div class="form-group">
+                <label>Biaya Shopee Lain-Lain (Rp)</label>
+                <div class="input-group">
+                    <span>Rp</span>
+                    <input type="number" id="biayaLainRp" value="" step="500" placeholder="0">
+                </div>
+                <div class="info-text">Biaya tetap dalam Rupiah, misal biaya administrasi tambahan</div>
+            </div>
+            <div id="biayaLainRpBox" class="result-box" style="background: #fef3c7; display: none;">
+                <span class="result-label">📋 Biaya Lain-Lain (Rp)</span>
+                <span class="result-value" id="biayaLainRpText">Rp 0</span>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="result-box" style="background: #fef3c7;">
+                <span class="result-label">📊 Total Biaya Shopee</span>
+                <span class="result-value" id="totalBiayaShopee">Rp 0</span>
+            </div>
+        </div>
+
+        <!-- CARD 3: DANA DICAIRKAN -->
+        <div class="card">
+            <div class="card-title"><span>💰</span> DANA YANG DICAIRKAN</div>
+            <div class="result-box" style="background: #d1fae5;">
+                <span class="result-label">💵 Dana Dicairkan</span>
+                <span class="result-value" id="danaDicairkan">Rp 0</span>
+            </div>
+        </div>
+
+        <!-- CARD 4: COGS -->
+        <div class="card">
+            <div class="card-title"><span>📦</span> COGS (Modal)</div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>Harga Pokok Produk (HPP)</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="hpp" value="" step="5000" placeholder="0">
+                    </div>
+                    <small style="color: #718096;">Modal beli barang</small>
+                </div>
+                <div class="form-group">
+                    <label>Biaya Penanganan Khusus</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="biayaPenanganan" value="" step="1000" placeholder="0">
+                    </div>
+                    <small style="color: #718096;">Kemasan khusus, dll.</small>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="result-box" style="background: #fed7aa;">
+                <span class="result-label">📦 Total COGS</span>
+                <span class="result-value" id="totalCOGS">Rp 0</span>
+            </div>
+            <div class="result-box" style="background: #c7d2fe;">
+                <span class="result-label">📈 PROFIT KOTOR</span>
+                <span class="result-value" id="profitKotor">Rp 0</span>
+            </div>
+        </div>
+
+        <!-- CARD 5: PENGELUARAN -->
+        <div class="card">
+            <div class="card-title"><span>💸</span> PENGELUARAN</div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>ROAS Iklan</label>
+                    <input type="number" id="roas" value="" step="1" placeholder="10">
+                    <small>Contoh: 10 berarti 10x</small>
+                </div>
+                <div class="form-group">
+                    <label>Komisi Afiliasi</label>
+                    <div class="input-group">
+                        <input type="number" id="komisiAfiliasi" value="" step="1" placeholder="0"
+                            style="border-radius: 10px 0 0 10px;">
+                        <span style="border-radius: 0 10px 10px 0;">%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>Promosi di Luar Shopee</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="promosiLuar" value="" step="5000" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Biaya Packing</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="biayaPacking" value="" step="500" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>Biaya Operasional</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="biayaOperasional" value="" step="500" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Biaya Lain-lain</label>
+                    <div class="input-group">
+                        <span>Rp</span>
+                        <input type="number" id="biayaLain" value="" step="1000" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="result-box" style="background: #fecaca;">
+                <span class="result-label">💸 Total Biaya</span>
+                <span class="result-value" id="totalBiaya">Rp 0</span>
+            </div>
+        </div>
+
+        <!-- CARD 6: HASIL AKHIR -->
+        <div class="card">
+            <div class="card-title"><span>📊</span> HASIL AKHIR</div>
+            <div class="result-box" style="background: #e0e7ff;">
+                <span class="result-label">📉 Profit Bersih Sebelum Pajak</span>
+                <span class="result-value" id="profitSebelumPajak">Rp 0</span>
+            </div>
+            <div class="row-2">
+                <div class="form-group">
+                    <label>Rate Pajak UMKM</label>
+                    <div class="input-group">
+                        <input type="number" id="pajakRate" value="" step="0.1" placeholder="0.5"
+                            style="border-radius: 10px 0 0 10px;">
+                        <span style="border-radius: 0 10px 10px 0;">%</span>
+                    </div>
+                    <small>0.5% dari omset (harga jual nett)</small>
+                </div>
+                <div class="form-group">
+                    <label>PPN</label>
+                    <select id="ppn">
+                        <option value="No">Tidak</option>
+                        <option value="Yes">Ya (11%)</option>
+                    </select>
+                    <small>11% dari harga jual nett</small>
+                </div>
+            </div>
+            <div class="result-box" style="background: #fee2e2;">
+                <span class="result-label">🧾 Pajak UMKM</span>
+                <span class="result-value" id="pajak">Rp 0</span>
+            </div>
+            <div id="ppnBox" class="result-box" style="background: #fee2e2; display: none;">
+                <span class="result-label">🧾 PPN (11%)</span>
+                <span class="result-value" id="ppnText">Rp 0</span>
+            </div>
+            <div class="separator"></div>
+            <div class="result-box" id="profitBersihBox" style="background: #d1fae5; font-size: 1.2rem;">
+                <span class="result-label" style="font-weight: bold;">✅ PROFIT BERSIH</span>
+                <span class="result-value" id="profitBersih" style="font-size: 1.3rem;">Rp 0</span>
+            </div>
+        </div>
+
+        <footer>
+            Hak Cipta © Cuan Berkah Digital • Kalkulator ini untuk keperluan simulasi • Data estimasi dapat berbeda dengan kondisi aktual
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
