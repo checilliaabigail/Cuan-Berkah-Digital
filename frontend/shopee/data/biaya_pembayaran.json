@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nama": "Biaya Pembayaran Shopee Mall",
+    "tipeToko": "mall",
+    "rate": 0.018,
+    "maxPerQty": 50000,
+    "keterangan": "Biaya pembayaran 1.8% dari harga nett untuk Shopee Mall. Maksimal Rp50.000."
+  },
+  {
+    "id": 2,
+    "nama": "Biaya Pembayaran Non-Mall",
+    "tipeToko": "nonStar",
+    "rate": 0,
+    "maxPerQty": 0,
+    "keterangan": "Tidak ada biaya pembayaran untuk Non-Star / Star / Star+"
+  }
+]

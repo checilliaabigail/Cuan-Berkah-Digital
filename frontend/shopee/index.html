@@ -74,13 +74,170 @@
             }
             .search-result-item .product-fee { align-self: flex-start; }
         }
+
+        /* ── USER BAR ── */
+        .user-bar {
+            background: rgba(255,255,255,0.15);
+            border-radius: 12px;
+            padding: 10px 16px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-size: 0.85rem;
+        }
+        .user-bar .user-info { display: flex; align-items: center; gap: 8px; }
+        .user-bar .token-badge {
+            background: rgba(255,255,255,0.25);
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+        .user-bar .btn-logout {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.4);
+            color: white;
+            padding: 5px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: background 0.2s;
+        }
+        .user-bar .btn-logout:hover { background: rgba(255,255,255,0.35); }
+
+        /* ── PREVIEW vs RESULT ── */
+        .result-box.preview {
+            background: #f0f4ff !important;
+            border-left: 4px solid #667eea;
+        }
+        .result-box.preview .result-label::after {
+            content: " (Preview)";
+            font-size: 0.7rem;
+            color: #667eea;
+            font-weight: 400;
+        }
+        .result-box.result-final {
+            background: #d1fae5 !important;
+            border-left: 4px solid #10b981;
+        }
+        .result-box.result-final .result-label::after {
+            content: " ✅ Resmi";
+            font-size: 0.7rem;
+            color: #10b981;
+            font-weight: 400;
+        }
+        .result-box.empty {
+            opacity: 0.3;
+            transition: opacity 0.3s ease;
+        }
+        .result-box.has-result {
+            opacity: 1 !important;
+        }
+
+        /* ── HIDE DETAIL BOX AWAL ── */
+        #promoXTRABox,
+        #promoXTRAplusBox,
+        #liveXTRABox,
+        #spayLaterBox,
+        #hematKirimBox,
+        #asuransiBox,
+        #produkPOBox,
+        #biayaLainPersenBox,
+        #biayaLainRpBox,
+        #ppnBox {
+            display: none !important;
+        }
+        #promoXTRABox.show,
+        #promoXTRAplusBox.show,
+        #liveXTRABox.show,
+        #spayLaterBox.show,
+        #hematKirimBox.show,
+        #asuransiBox.show,
+        #produkPOBox.show,
+        #biayaLainPersenBox.show,
+        #biayaLainRpBox.show,
+        #ppnBox.show {
+            display: flex !important;
+        }
+
+        /* ── LOADING OVERLAY ── */
+        .calc-loading {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.35);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 12px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .calc-loading.show { display: flex; }
+        .spinner {
+            width: 40px; height: 40px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── BUTTON ── */
+        .btn-hitung {
+            padding: 14px 45px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            letter-spacing: 0.5px;
+        }
+        .btn-hitung:hover { transform: translateY(-2px); box-shadow: 0 6px 25px rgba(102, 126, 234, 0.5); }
+        .btn-hitung:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .btn-reset {
+            padding: 14px 35px;
+            background: #e2e8f0;
+            color: #4a5568;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn-reset:hover { background: #cbd5e1; }
     </style>
 </head>
 <body>
+    <!-- Loading overlay saat kalkulasi ke backend -->
+    <div class="calc-loading" id="calcLoading">
+        <div class="spinner"></div>
+        Menghitung...
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>🛍️ KALKULATOR CUAN SHOPEE</h1>
             <p>Cuan Berkah Digital | Private Coaching • Ads Management • Affiliator Agency</p>
+        </div>
+
+        <!-- User bar: nama, token, logout -->
+        <div class="user-bar">
+            <div class="user-info">
+                <span>👤</span>
+                <span id="userDisplayName">-</span>
+                <span class="token-badge" id="tokenDisplay">🪙 - token</span>
+            </div>
+            <button class="btn-logout" onclick="logout()">Keluar</button>
         </div>
 
         <!-- CARD 1: HARGA JUAL -->
@@ -114,9 +271,13 @@
                 </div>
             </div>
             <div class="separator"></div>
-            <div class="result-box" style="background: #e0e7ff;">
+            <div class="result-box preview" style="background: #e0e7ff;">
                 <span class="result-label">💰 Harga Jual Nett</span>
                 <span class="result-value" id="hargaNett">Rp 0</span>
+            </div>
+            <div class="result-box preview" style="background: #d1fae5;">
+                <span class="result-label">💵 Dana Dicairkan (Preview)</span>
+                <span class="result-value" id="danaDicairkanPreview">Rp 0</span>
             </div>
         </div>
 
@@ -169,12 +330,13 @@
                 <div class="info-text">Pilih sub kategori manual jika produk tidak ditemukan</div>
             </div>
 
-            <div class="result-box" style="background: #fef3c7;">
+            <!-- HASIL: AWALNYA KOSONG (empty) -->
+            <div class="result-box empty" style="background: #fef3c7;">
                 <span class="result-label">📋 Biaya Administrasi</span>
                 <span class="result-value" id="biayaAdminText">0% → Rp 0</span>
             </div>
 
-            <div class="result-box" style="background: #fef3c7;">
+            <div class="result-box empty" style="background: #fef3c7;">
                 <span class="result-label">💳 Biaya Pembayaran</span>
                 <span class="result-value" id="biayaPembayaranText">0% → Rp 0</span>
             </div>
@@ -206,7 +368,7 @@
                 </div>
             </div>
 
-            <div class="result-box" style="background: #f0fdf4;">
+            <div class="result-box empty" style="background: #f0fdf4;">
                 <span class="result-label">📦 Gratis Ongkir XTRA</span>
                 <span class="result-value" id="gratisOngkirXtraText">Rp 0</span>
             </div>
@@ -238,15 +400,15 @@
                 </div>
             </div>
 
-            <div id="promoXTRABox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="promoXTRABox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">🎯 Biaya Promo XTRA (4,5%)</span>
                 <span class="result-value" id="biayaPromoXTRAText">Rp 0</span>
             </div>
-            <div id="promoXTRAplusBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="promoXTRAplusBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">🎯 Biaya Promo XTRA+ (6,5%)</span>
                 <span class="result-value" id="biayaPromoXTRAplusText">Rp 0</span>
             </div>
-            <div id="liveXTRABox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="liveXTRABox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">🎥 Biaya Live XTRA</span>
                 <span class="result-value" id="biayaLiveXTRAText">Rp 0</span>
             </div>
@@ -283,19 +445,19 @@
                 </div>
             </div>
 
-            <div id="spayLaterBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="spayLaterBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">💳 Biaya SPayLater XTRA 0%</span>
                 <span class="result-value" id="biayaSPayLaterText">Rp 0</span>
             </div>
-            <div id="hematKirimBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="hematKirimBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">🚚 Hemat Biaya Kirim</span>
                 <span class="result-value" id="biayaHematKirimText">Rp 0</span>
             </div>
-            <div id="asuransiBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="asuransiBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">🛡️ Asuransi Pengiriman (0,5%)</span>
                 <span class="result-value" id="biayaAsuransiText">Rp 0</span>
             </div>
-            <div id="produkPOBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="produkPOBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">📦 Biaya Produk PO (3%)</span>
                 <span class="result-value" id="biayaPOText">Rp 0</span>
             </div>
@@ -314,7 +476,7 @@
                 </div>
                 <div class="info-text">Isi angka lalu tekan Tab atau klik di luar untuk menghitung</div>
             </div>
-            <div id="biayaLainPersenBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="biayaLainPersenBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">📋 Biaya Lain-Lain (%)</span>
                 <span class="result-value" id="biayaLainPersenText">Rp 0</span>
             </div>
@@ -327,24 +489,24 @@
                 </div>
                 <div class="info-text">Biaya tetap dalam Rupiah, misal biaya administrasi tambahan</div>
             </div>
-            <div id="biayaLainRpBox" class="result-box" style="background: #fef3c7; display: none;">
+            <div id="biayaLainRpBox" class="result-box empty" style="background: #fef3c7; display: none;">
                 <span class="result-label">📋 Biaya Lain-Lain (Rp)</span>
                 <span class="result-value" id="biayaLainRpText">Rp 0</span>
             </div>
 
             <div class="separator"></div>
 
-            <div class="result-box" style="background: #fef3c7;">
+            <div class="result-box empty" style="background: #fef3c7;">
                 <span class="result-label">📊 Total Biaya Shopee</span>
                 <span class="result-value" id="totalBiayaShopee">Rp 0</span>
             </div>
         </div>
 
-        <!-- CARD 3: DANA DICAIRKAN -->
+        <!-- CARD 3: DANA DICAIRKAN RESMI -->
         <div class="card">
             <div class="card-title"><span>💰</span> DANA YANG DICAIRKAN</div>
-            <div class="result-box" style="background: #d1fae5;">
-                <span class="result-label">💵 Dana Dicairkan</span>
+            <div class="result-box empty" style="background: #d1fae5;">
+                <span class="result-label">💵 Dana Dicairkan (Resmi)</span>
                 <span class="result-value" id="danaDicairkan">Rp 0</span>
             </div>
         </div>
@@ -371,11 +533,11 @@
                 </div>
             </div>
             <div class="separator"></div>
-            <div class="result-box" style="background: #fed7aa;">
+            <div class="result-box empty" style="background: #fed7aa;">
                 <span class="result-label">📦 Total COGS</span>
                 <span class="result-value" id="totalCOGS">Rp 0</span>
             </div>
-            <div class="result-box" style="background: #c7d2fe;">
+            <div class="result-box empty" style="background: #c7d2fe;">
                 <span class="result-label">📈 PROFIT KOTOR</span>
                 <span class="result-value" id="profitKotor">Rp 0</span>
             </div>
@@ -432,7 +594,7 @@
                 </div>
             </div>
             <div class="separator"></div>
-            <div class="result-box" style="background: #fecaca;">
+            <div class="result-box empty" style="background: #fecaca;">
                 <span class="result-label">💸 Total Biaya</span>
                 <span class="result-value" id="totalBiaya">Rp 0</span>
             </div>
@@ -441,7 +603,7 @@
         <!-- CARD 6: HASIL AKHIR -->
         <div class="card">
             <div class="card-title"><span>📊</span> HASIL AKHIR</div>
-            <div class="result-box" style="background: #e0e7ff;">
+            <div class="result-box empty" style="background: #e0e7ff;">
                 <span class="result-label">📉 Profit Bersih Sebelum Pajak</span>
                 <span class="result-value" id="profitSebelumPajak">Rp 0</span>
             </div>
@@ -464,19 +626,34 @@
                     <small>11% dari harga jual nett</small>
                 </div>
             </div>
-            <div class="result-box" style="background: #fee2e2;">
+            <div class="result-box empty" style="background: #fee2e2;">
                 <span class="result-label">🧾 Pajak UMKM</span>
                 <span class="result-value" id="pajak">Rp 0</span>
             </div>
-            <div id="ppnBox" class="result-box" style="background: #fee2e2; display: none;">
+            <div id="ppnBox" class="result-box empty" style="background: #fee2e2; display: none;">
                 <span class="result-label">🧾 PPN (11%)</span>
                 <span class="result-value" id="ppnText">Rp 0</span>
             </div>
             <div class="separator"></div>
-            <div class="result-box" id="profitBersihBox" style="background: #d1fae5; font-size: 1.2rem;">
+            <div class="result-box empty" id="profitBersihBox" style="background: #d1fae5; font-size: 1.2rem;">
                 <span class="result-label" style="font-weight: bold;">✅ PROFIT BERSIH</span>
                 <span class="result-value" id="profitBersih" style="font-size: 1.3rem;">Rp 0</span>
             </div>
+
+            <!-- ============================================ -->
+            <!-- 🚀 TOMBOL HITUNG & RESET -->
+            <!-- ============================================ -->
+            <div style="margin-top: 25px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; border-top: 1px solid #e2e8f0; padding-top: 20px;">
+                <button type="button" class="btn-hitung" id="btnHitung" onclick="hitungKeBackend()">
+                    🚀 Hitung
+                </button>
+                <button class="btn-reset" onclick="resetForm()">
+                    🔄 Reset
+                </button>
+            </div>
+            <div id="statusHitung" style="text-align: center; margin-top: 12px; font-size: 0.9rem; color: #718096; min-height: 24px;"></div>
+            <!-- ============================================ -->
+
         </div>
 
         <footer>
@@ -484,6 +661,28 @@
         </footer>
     </div>
 
+    <!-- auth.js harus dimuat sebelum script.js -->
+    <script src="../auth.js"></script>
+    <script>
+        // ── CEK LOGIN ──
+        if (!isAuthenticated()) {
+            window.location.href = '../login.html';
+        }
+
+        // ── TAMPILKAN USER INFO ──
+        const userData = getUser();
+        if (userData) {
+            document.getElementById('userDisplayName').textContent =
+                userData.username || userData.email;
+            document.getElementById('tokenDisplay').textContent =
+                '🪙 ' + (userData.remaining_tokens ?? '-') + ' token';
+        }
+
+        // ── FUNGSI LOGOUT ──
+        function logout() {
+            logoutUser();
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

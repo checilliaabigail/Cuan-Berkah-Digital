@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cuan Berkah Digital</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .auth-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .auth-card h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            color: #2d3748;
+            font-size: 1.6rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .btn {
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.2s;
+            margin-top: 5px;
+        }
+        .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+        .btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .auth-footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+        .auth-footer a { color: #667eea; text-decoration: none; font-weight: 600; }
+        .auth-footer a:hover { text-decoration: underline; }
+        .alert {
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            font-size: 0.9rem;
+            display: none;
+        }
+        .alert.show { display: block; }
+        .alert-error { background: #fee2e2; color: #c53030; border: 1px solid #feb2b2; }
+        .alert-success { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+    </style>
+</head>
+<body>
+    <div class="auth-card">
+        <h1>🔐 Login</h1>
+        <p class="subtitle">Cuan Berkah Digital</p>
+
+        <div id="alertError" class="alert alert-error"></div>
+        <div id="alertSuccess" class="alert alert-success"></div>
+
+        <form onsubmit="handleLogin(event)">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="masukkan@email.com" required autocomplete="email">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Password kamu" required autocomplete="current-password">
+            </div>
+            <button type="submit" class="btn" id="loginBtn">Login</button>
+        </form>
+
+        <div class="auth-footer">
+            Belum punya akun? <a href="register.html">Daftar sekarang</a>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script>
+        // Kalau sudah login, langsung ke kalkulator
+        if (isAuthenticated()) {
+            window.location.href = 'shopee/index.html';
+        }
+
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const email    = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const btn      = document.getElementById('loginBtn');
+            const errDiv   = document.getElementById('alertError');
+            const sucDiv   = document.getElementById('alertSuccess');
+
+            errDiv.classList.remove('show');
+            sucDiv.classList.remove('show');
+
+            btn.disabled    = true;
+            btn.textContent = 'Memproses...';
+
+            const result = await loginUser(email, password);
+
+            btn.disabled    = false;
+            btn.textContent = 'Login';
+
+            if (result.success) {
+                sucDiv.textContent = 'Login berhasil! Mengalihkan...';
+                sucDiv.classList.add('show');
+                setTimeout(() => {
+                    window.location.href = 'shopee/index.html';
+                }, 800);
+            } else {
+                errDiv.textContent = result.error;
+                errDiv.classList.add('show');
+            }
+        }
+    </script>
+</body>
+</html>
