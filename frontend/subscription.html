@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlangganan - Cuan Berkah Digital</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sub-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 440px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .sub-card h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            color: #2d3748;
+            font-size: 1.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 28px;
+            font-size: 0.9rem;
+        }
+        .plan-box {
+            border: 2px solid #667eea;
+            border-radius: 14px;
+            padding: 22px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .plan-badge {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+        }
+        .plan-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-top: 6px;
+        }
+        .plan-price {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #667eea;
+            margin: 10px 0 4px;
+        }
+        .plan-price span {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #718096;
+        }
+        .plan-features {
+            list-style: none;
+            margin-top: 16px;
+        }
+        .plan-features li {
+            font-size: 0.9rem;
+            color: #4a5568;
+            padding: 6px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .plan-features li::before {
+            content: "✅";
+            font-size: 0.85rem;
+        }
+        .btn {
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.2s;
+            margin-top: 8px;
+        }
+        .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+        .btn-secondary {
+            background: #f1f5f9;
+            color: #4a5568;
+            margin-top: 10px;
+        }
+        .note {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            color: #92400e;
+            font-size: 0.82rem;
+            padding: 10px 14px;
+            border-radius: 8px;
+            margin-top: 18px;
+            line-height: 1.5;
+        }
+        .footer-link {
+            text-align: center;
+            margin-top: 18px;
+            font-size: 0.85rem;
+        }
+        .footer-link a { color: #718096; text-decoration: none; }
+        .footer-link a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="sub-card">
+        <h1>🔒 Berlangganan Dulu, Yuk</h1>
+        <p class="subtitle">Aktifkan akses kalkulator Cuan Berkah Digital</p>
+
+        <div class="plan-box">
+            <span class="plan-badge">PALING POPULER</span>
+            <div class="plan-name">Paket Monthly</div>
+            <div class="plan-price">Rp XX.XXX <span>/ bulan</span></div>
+            <ul class="plan-features">
+                <li>100 token kalkulasi / bulan</li>
+                <li>Kalkulator Shopee (segera: TikTok)</li>
+                <li>Update rate biaya otomatis</li>
+            </ul>
+        </div>
+
+        <button class="btn" id="btnSubscribe" onclick="handleSubscribe()">
+            Berlangganan Sekarang
+        </button>
+        <button class="btn btn-secondary" onclick="checkStatusUlang()">
+            Sudah Bayar? Cek Status Lagi
+        </button>
+
+        <div class="note">
+            ⚠️ Link pembayaran belum aktif (masih tahap development). Untuk
+            sekarang, subscription diaktifkan manual oleh admin lewat Django
+            Admin.
+        </div>
+
+        <div class="footer-link">
+            <a href="#" onclick="logout(); return false;">Keluar dari akun</a>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script>
+        // Kalau belum login sama sekali, tendang ke login
+        if (!isAuthenticated()) {
+            window.location.href = 'login.html';
+        }
+
+        function logout() {
+            logoutUser();
+        }
+
+        // TODO: ganti dengan link Lynk.id asli begitu sudah tersedia
+        const LYNK_PAYMENT_URL = null; // contoh nanti: 'https://lynk.id/namatoko/paket-monthly'
+
+        function handleSubscribe() {
+            if (!LYNK_PAYMENT_URL) {
+                alert(
+                    'Link pembayaran belum tersedia (masih placeholder).\n\n' +
+                    'Sementara ini, minta admin aktifkan subscription kamu ' +
+                    'secara manual lewat Django Admin.'
+                );
+                return;
+            }
+            window.location.href = LYNK_PAYMENT_URL;
+        }
+
+        // Setelah bayar (manual/otomatis), user klik ini untuk re-check status
+        async function checkStatusUlang() {
+            const btn = document.getElementById('btnSubscribe');
+            try {
+                const token = getToken();
+                const res = await fetch(window.APP_ROOT + 'api/subscriptions/status', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const result = await res.json();
+
+                if (res.status === 401) {
+                    logoutUser();
+                    return;
+                }
+
+                if (result.is_active) {
+                    alert('Subscription kamu sudah aktif! Mengarahkan ke kalkulator...');
+                    window.location.href = 'shopee/index.html';
+                } else {
+                    alert('Subscription belum aktif. Coba lagi beberapa saat, atau hubungi admin.');
+                }
+            } catch (err) {
+                alert('Tidak dapat terhubung ke server. Pastikan backend sudah berjalan.');
+            }
+        }
+    </script>
+</body>
+</html>

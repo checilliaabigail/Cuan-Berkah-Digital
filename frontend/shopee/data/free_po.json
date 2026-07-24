@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "kategori": "Aksesoris Fashion",
+    "subKategori": "Aksesoris Tambahan",
+    "jenisProduk": "Bordir"
+  },
+  {
+    "id": 2,
+    "kategori": "Buku & Alat Tulis",
+    "subKategori": "Buku Tulis & Kertas",
+    "jenisProduk": "Label & Stiker"
+  },
+  {
+    "id": 3,
+    "kategori": "Buku & Alat Tulis",
+    "subKategori": "Pembungkus Kado & Kemasan",
+    "jenisProduk": "Tas Kado"
+  },
+  {
+    "id": 4,
+    "kategori": "Buku & Alat Tulis",
+    "subKategori": "Perlengkapan Sekolah & Kantor",
+    "jenisProduk": "Kalender"
+  },
+  {
+    "id": 5,
+    "kategori": "Buku & Alat Tulis",
+    "subKategori": "Perlengkapan Sekolah & Kantor",
+    "jenisProduk": "Lanyard & Name Tag"
+  },
+  {
+    "id": 6,
+    "kategori": "Buku & Alat Tulis",
+    "subKategori": "Surat-Menyurat",
+    "jenisProduk": "Surat-Menyurat Lainnya"
+  },
+  {
+    "id": 7,
+    "kategori": "Buku & Majalah",
+    "subKategori": "Buku Bacaan",
+    "jenisProduk": "Agama & Filsafat"
+  },
+  {
+    "id": 8,
+    "kategori": "Buku & Majalah",
+    "subKategori": "Buku Bacaan",
+    "jenisProduk": "Buku Resep & Masak"
+  },
+  {
+    "id": 9,
+    "kategori": "Hobi & Koleksi",
+    "subKategori": "Souvenir & Hadiah",
+    "jenisProduk": "Gantungan Kunci"
+  },
+  {
+    "id": 10,
+    "kategori": "Hobi & Koleksi",
+    "subKategori": "Souvenir & Hadiah",
+    "jenisProduk": "Kipas Tangan"
+  },
+  {
+    "id": 11,
+    "kategori": "Hobi & Koleksi",
+    "subKategori": "Souvenir & Hadiah",
+    "jenisProduk": "Souvenir Lainnya"
+  },
+  {
+    "id": 12,
+    "kategori": "Ibu & Bayi",
+    "subKategori": "Kamar Bayi",
+    "jenisProduk": "Sprei"
+  },
+  {
+    "id": 13,
+    "kategori": "Kamera & Drone",
+    "subKategori": "Aksesoris Kamera",
+    "jenisProduk": "Roll Film & Kertas Foto"
+  },
+  {
+    "id": 14,
+    "kategori": "Koper & Tas Travel",
+    "subKategori": "Aksesoris Travel",
+    "jenisProduk": "Passport Cover"
+  },
+  {
+    "id": 15,
+    "kategori": "Koper & Tas Travel",
+    "subKategori": "Aksesoris Travel",
+    "jenisProduk": "Tag Koper"
+  },
+  {
+    "id": 16,
+    "kategori": "Mobil",
+    "subKategori": "Aksesoris Eksterior Mobil",
+    "jenisProduk": "Aksesoris Plat Nomor Mobil"
+  },
+  {
+    "id": 17,
+    "kategori": "Olahraga & Outdoor",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": "Atasan Olahraga"
+  },
+  {
+    "id": 18,
+    "kategori": "Olahraga & Outdoor",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": "Bawahan Olahraga"
+  },
+  {
+    "id": 19,
+    "kategori": "Olahraga & Outdoor",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": "Jaket Olahraga"
+  },
+  {
+    "id": 20,
+    "kategori": "Olahraga & Outdoor",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": "Jersey"
+  },
+  {
+    "id": 21,
+    "kategori": "Olahraga & Outdoor",
+    "subKategori": "Pakaian Olahraga & Aktivitas Outdoor",
+    "jenisProduk": "Set Pakaian Olahraga & Aktivitas Outdoor"
+  },
+  {
+    "id": 22,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Dekorasi",
+    "jenisProduk": "Bingkai Foto & Pajangan Dinding"
+  },
+  {
+    "id": 23,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Kamar Mandi",
+    "jenisProduk": "Handuk Mandi"
+  },
+  {
+    "id": 24,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Kamar Mandi",
+    "jenisProduk": "Handuk Wajah & Lap Tangan"
+  },
+  {
+    "id": 25,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Kamar Mandi",
+    "jenisProduk": "Handuk Kimono"
+  },
+  {
+    "id": 26,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Kamar Mandi",
+    "jenisProduk": "Handuk Mandi & Kimono Lainnya"
+  },
+  {
+    "id": 27,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Perlengkapan Makan",
+    "jenisProduk": "Cangkir, Mug, dan Gelas"
+  },
+  {
+    "id": 28,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Perlengkapan Pesta",
+    "jenisProduk": "Kartu Ucapan"
+  },
+  {
+    "id": 29,
+    "kategori": "Perlengkapan Rumah",
+    "subKategori": "Perlengkapan Pesta",
+    "jenisProduk": "Selempang/Sash"
+  },
+  {
+    "id": 30,
+    "kategori": "Tiket, Voucher, & Layanan",
+    "subKategori": "E-Money",
+    "jenisProduk": "E-Money"
+  },
+  {
+    "id": 31,
+    "kategori": "Sepeda Motor",
+    "subKategori": "Sepeda Motor",
+    "jenisProduk": "Sepeda Motor"
+  }
+]

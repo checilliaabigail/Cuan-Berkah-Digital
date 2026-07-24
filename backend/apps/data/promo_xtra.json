@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nama": "Promo XTRA",
+    "rate": 0.045,
+    "maxBiaya": 60000,
+    "keterangan": "Biaya Promo XTRA berlaku jika seller memilih Yes. Maksimal Rp60.000 per produk.",
+    "fieldName": "promoXTRA"
+  },
+  {
+    "id": 2,
+    "nama": "Promo XTRA+",
+    "rate": 0.065,
+    "maxBiaya": 80000,
+    "keterangan": "Biaya Promo XTRA+ berlaku jika seller memilih Yes. Maksimal Rp80.000 per produk.",
+    "fieldName": "promoXTRAplus"
+  }
+]

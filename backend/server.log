@@ -1,0 +1,42 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[17/Jul/2026 10:48:54] "GET / HTTP/1.1" 200 5544
+[17/Jul/2026 10:48:54] "GET /auth.js HTTP/1.1" 304 0
+[17/Jul/2026 10:48:54] "GET /shopee/index.html HTTP/1.1" 200 31141
+[17/Jul/2026 10:48:54] "GET /shopee/style.css HTTP/1.1" 200 10730
+[17/Jul/2026 10:48:54] "GET /shopee/script.js HTTP/1.1" 200 37586
+[17/Jul/2026 10:48:54] "GET /shopee/data/xtraFee.json HTTP/1.1" 200 1301
+Unauthorized: /api/subscriptions/status
+[17/Jul/2026 10:48:54] "GET /shopee/data/promo_xtra.json HTTP/1.1" 200 467
+[17/Jul/2026 10:48:54] "GET /shopee/data/live_xtra.json HTTP/1.1" 200 707
+[17/Jul/2026 10:48:54] "GET /api/subscriptions/status HTTP/1.1" 401 183
+[17/Jul/2026 10:48:54] "GET /shopee/data/spaylater_xtra.json HTTP/1.1" 200 641
+[17/Jul/2026 10:48:54] "GET /shopee/data/biaya_pembayaran.json HTTP/1.1" 200 452
+[17/Jul/2026 10:48:54] "GET /shopee/data/free_po.json HTTP/1.1" 200 4512
+[17/Jul/2026 10:48:54] "GET /shopee/data/admin_non-mall.json HTTP/1.1" 200 106178
+[17/Jul/2026 10:48:54] "GET /shopee/data/admin_mall.json HTTP/1.1" 200 106113
+[17/Jul/2026 10:48:54] "GET /shopee/data/xtraCategory.json HTTP/1.1" 200 145801
+[17/Jul/2026 10:48:54] "GET /login.html HTTP/1.1" 200 5544
+[17/Jul/2026 11:54:13] "POST /api/auth/login HTTP/1.1" 200 690
+[17/Jul/2026 11:54:14] "GET /api/subscriptions/status HTTP/1.1" 200 142
+[17/Jul/2026 13:01:08] "GET /shopee/index.html HTTP/1.1" 304 0
+[17/Jul/2026 13:01:08] "GET /api/subscriptions/status HTTP/1.1" 200 142
+[18/Jul/2026 08:18:57] "GET / HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /auth.js HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/index.html HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/style.css HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/script.js HTTP/1.1" 304 0
+Unauthorized: /api/subscriptions/status
+[18/Jul/2026 08:18:57] "GET /api/subscriptions/status HTTP/1.1" 401 183
+[18/Jul/2026 08:18:57] "GET /shopee/data/promo_xtra.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/xtraCategory.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/admin_non-mall.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/biaya_pembayaran.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/admin_mall.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/xtraFee.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/live_xtra.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/free_po.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /shopee/data/spaylater_xtra.json HTTP/1.1" 304 0
+[18/Jul/2026 08:18:57] "GET /login.html HTTP/1.1" 304 0
+[19/Jul/2026 03:46:03] "GET / HTTP/1.1" 304 0
+[19/Jul/2026 03:46:03] "GET /auth.js HTTP/1.1" 304 0

@@ -1,0 +1,82 @@
+{
+  "A": {
+    "regular": {
+      "rate": 0.01,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.025,
+      "maxPerQty": 60000
+    }
+  },
+  "B": {
+    "regular": {
+      "rate": 0.02,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.035,
+      "maxPerQty": 60000
+    }
+  },
+  "C": {
+    "regular": {
+      "rate": 0.035,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.05,
+      "maxPerQty": 60000
+    }
+  },
+  "D": {
+    "regular": {
+      "rate": 0.055,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.07,
+      "maxPerQty": 60000
+    }
+  },
+  "E": {
+    "regular": {
+      "rate": 0.06,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.075,
+      "maxPerQty": 60000
+    }
+  },
+  "F": {
+    "regular": {
+      "rate": 0.065,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.08,
+      "maxPerQty": 60000
+    }
+  },
+  "G": {
+    "regular": {
+      "rate": 0.075,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.09,
+      "maxPerQty": 60000
+    }
+  },
+  "H": {
+    "regular": {
+      "rate": 0.08,
+      "maxPerQty": 40000
+    },
+    "special": {
+      "rate": 0.095,
+      "maxPerQty": 60000
+    }
+  }
+}

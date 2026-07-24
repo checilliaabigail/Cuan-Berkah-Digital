@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    # ganti "8001:8001" kalau port di server sudah dipakai proses lain
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    volumes:
+      # supaya db.sqlite3 tidak ikut ke-bundle ke image dan tetap
+      # persist walau container dihapus/dibuat ulang
+      - ./backend/db.sqlite3:/app/backend/db.sqlite3

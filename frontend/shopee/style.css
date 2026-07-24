@@ -1,0 +1,530 @@
+/* ============================================================
+   KALKULATOR CUAN SHOPEE - STYLE.CSS
+   Cuan Berkah Digital
+   ============================================================ */
+
+/* ============================================================
+   RESET & BASE
+   ============================================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ============================================================
+   CONTAINER
+   ============================================================ */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* ============================================================
+   CARD
+   ============================================================ */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2d3748;
+}
+
+/* ============================================================
+   FORM GROUP
+   ============================================================ */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.2s;
+    background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group input:hover,
+.form-group select:hover {
+    border-color: #a0aec0;
+}
+
+.form-group small,
+.form-group .info-text {
+    font-size: 0.7rem;
+    color: #718096;
+    margin-top: 4px;
+    display: block;
+}
+
+/* ============================================================
+   INPUT GROUP (dengan prefix Rp)
+   ============================================================ */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group span {
+    background: #f7fafc;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    font-weight: 600;
+    color: #4a5568;
+    min-width: 45px;
+    text-align: center;
+}
+
+.input-group input {
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+}
+
+.input-group input:focus {
+    border-left: none;
+}
+
+/* Khusus untuk input persentase di komisi afiliasi & pajak */
+.input-group input[style*="border-radius: 10px 0 0 10px;"] {
+    border-radius: 10px 0 0 10px !important;
+    border-right: none;
+}
+
+.input-group input[style*="border-radius: 10px 0 0 10px;"] + span {
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+    background: #f7fafc;
+    padding: 12px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+/* ============================================================
+   GRID LAYOUT
+   ============================================================ */
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+/* ============================================================
+   RESULT BOX
+   ============================================================ */
+.result-box {
+    background: #f7fafc;
+    border-radius: 12px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.result-label {
+    font-size: 0.9rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.result-value {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Warna hasil profit */
+.profit-positive {
+    color: #10b981;
+}
+
+.profit-negative {
+    color: #ef4444;
+}
+
+/* ============================================================
+   SEPARATOR
+   ============================================================ */
+.separator {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 15px 0;
+}
+
+/* ============================================================
+   TOGGLE GROUP (select dropdown kecil)
+   ============================================================ */
+.toggle-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.toggle-item {
+    flex: 1;
+    min-width: 100px;
+}
+
+.toggle-item label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 3px;
+    color: #718096;
+    font-weight: 600;
+}
+
+.toggle-item select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background: white;
+    transition: all 0.2s;
+}
+
+.toggle-item select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* ============================================================
+   BADGE
+   ============================================================ */
+.badge {
+    display: inline-block;
+    background: #e2e8f0;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    margin-left: 8px;
+    color: #4a5568;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    margin-top: 20px;
+    opacity: 0.8;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+footer a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+    }
+
+    .header p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        padding: 15px;
+        border-radius: 16px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .row-2 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .row-3 {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .toggle-group {
+        flex-direction: column;
+    }
+
+    .toggle-item {
+        min-width: unset;
+    }
+
+    .result-box {
+        padding: 10px 12px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .result-label {
+        font-size: 0.8rem;
+    }
+
+    .result-value {
+        font-size: 1rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .input-group span {
+        padding: 10px;
+        font-size: 0.9rem;
+        min-width: 40px;
+    }
+
+    .input-group input {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .row-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .result-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .result-value {
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: right;
+    }
+
+    .toggle-item select {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+    }
+
+    .form-group label {
+        font-size: 0.75rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+
+    .input-group span {
+        padding: 8px 10px;
+        font-size: 0.85rem;
+        min-width: 35px;
+    }
+
+    .input-group input {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ============================================================
+   ANIMASI
+   ============================================================ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.card:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.card:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.card:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #764ba2;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #667eea;
+}
+
+/* ============================================================
+   PRINT STYLE
+   ============================================================ */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .header {
+        color: #2d3748;
+    }
+
+    .card {
+        box-shadow: none;
+        border: 1px solid #e2e8f0;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .card:hover {
+        box-shadow: none;
+    }
+
+    .toggle-item select,
+    .form-group input,
+    .form-group select {
+        border: 1px solid #ccc;
+        background: #f9f9f9;
+    }
+
+    footer {
+        color: #4a5568;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
