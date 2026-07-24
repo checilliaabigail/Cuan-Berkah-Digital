@@ -28,6 +28,7 @@ class Subscription(models.Model):
     
     def is_active(self):
         from django.utils import timezone
+<<<<<<< HEAD
         return self.status == 'active' and self.end_date > timezone.now()
 
     def save(self, *args, **kwargs):
@@ -46,3 +47,6 @@ class Subscription(models.Model):
 
         if should_grant_tokens:
             self.user.add_tokens(self.tokens_per_month)
+=======
+        return self.status == 'active' and self.end_date > timezone.now()
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2

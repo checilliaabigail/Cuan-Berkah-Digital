@@ -25,8 +25,18 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         validated_data.pop('password_confirm')
+<<<<<<< HEAD
         # Token TIDAK lagi diberikan di sini. Sesuai flow, token baru didapat
         # user setelah subscription-nya aktif (lihat Subscription.save() di
         # apps/subscriptions/models.py).
         user = User.objects.create_user(**validated_data)
+=======
+        user = User.objects.create_user(**validated_data)
+        
+        # 🔥 TAMBAHKAN INI: Beri token 100 gratis saat register
+        user.total_tokens = 100
+        user.remaining_tokens = 100
+        user.save()
+        
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
         return user

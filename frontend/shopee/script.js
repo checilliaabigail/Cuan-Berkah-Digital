@@ -661,7 +661,11 @@ async function hitungKeBackend() {
     status.style.color = '#667eea';
 
     try {
+<<<<<<< HEAD
         const response = await fetch(window.APP_ROOT + '/api/calculate/shopee', {
+=======
+        const response = await fetch('http://127.0.0.1:8000/api/calculate/shopee', {
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -686,6 +690,7 @@ async function hitungKeBackend() {
                 errorMsg = result.errors[firstKey];
                 if (Array.isArray(errorMsg)) errorMsg = errorMsg[0];
             }
+<<<<<<< HEAD
 
             // Belum subscription aktif → langsung arahkan ke halaman subscription
             if (result.code === 'no_subscription') {
@@ -694,6 +699,8 @@ async function hitungKeBackend() {
                 return;
             }
 
+=======
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
             throw new Error(errorMsg);
         }
 
@@ -934,4 +941,8 @@ function initApp() {
     console.log('🚀 Aplikasi siap digunakan!');
 }
 
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', loadAllData);
+=======
+document.addEventListener('DOMContentLoaded', loadAllData);
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2

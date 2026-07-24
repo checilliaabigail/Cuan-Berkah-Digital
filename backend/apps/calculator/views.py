@@ -5,7 +5,10 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from apps.tokens.models import TokenUsage
+<<<<<<< HEAD
 from apps.subscriptions.models import Subscription
+=======
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 
 # ============================================================
 # LOAD DATA JSON
@@ -37,6 +40,7 @@ class CalculateShopeeView(APIView):
         user = request.user
         data = request.data
 
+<<<<<<< HEAD
         # Cek subscription aktif (sesuai flow: user harus subs. aktif dulu sebelum bisa hitung)
         active_sub = (
             Subscription.objects.filter(user=user, status='active')
@@ -50,6 +54,8 @@ class CalculateShopeeView(APIView):
                 'code': 'no_subscription'
             }, status=status.HTTP_403_FORBIDDEN)
 
+=======
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
         # Cek token
         if user.remaining_tokens <= 0:
             return Response({

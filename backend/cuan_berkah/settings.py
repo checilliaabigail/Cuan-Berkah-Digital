@@ -14,7 +14,11 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+<<<<<<< HEAD
 FRONTEND_DIR = BASE_DIR.parent / 'frontend'
+=======
+
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -25,7 +29,11 @@ SECRET_KEY = 'django-insecure-(7y9rx=v8xqylp8ic_sw*7slmswb32j+i3q1*==q8%5#0pwpo6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['labfisika.unpar.ac.id', '127.0.0.1', 'localhost', '0.0.0.0', '172.17.0.1']
+=======
+ALLOWED_HOSTS = []
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 
 
 # Application definition
@@ -52,7 +60,10 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
+=======
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -128,12 +139,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STORAGES = {
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+=======
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -166,4 +180,8 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2

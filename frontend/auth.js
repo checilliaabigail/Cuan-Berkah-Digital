@@ -3,9 +3,13 @@
 // Cuan Berkah Digital
 // ============================================================
 
+<<<<<<< HEAD
 const AUTH_JS_DIR = document.currentScript.src.substring(0, document.currentScript.src.lastIndexOf('/') + 1);
 window.APP_ROOT = AUTH_JS_DIR;   
 const API_BASE = AUTH_JS_DIR + '/api/auth';
+=======
+const API_BASE = 'http://127.0.0.1:8000/api/auth';
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 
 // Cek apakah user sudah login
 function isAuthenticated() {
@@ -91,11 +95,20 @@ async function loginUser(email, password) {
 
 // Logout
 function logoutUser() {
+<<<<<<< HEAD
 	localStorage.removeItem('access_token');
 	localStorage.removeItem('refresh_token');
 	localStorage.removeItem('user');
    	 window.location.href = AUTH_JS_DIR + 'login.html';
 }
+=======
+    localStorage.removeItem('access_token');
+    localStorage.removeItem('refresh_token');
+    localStorage.removeItem('user');
+    window.location.href = '/frontend/login.html';
+}
+
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
 // Fetch dengan Authorization header
 async function fetchWithAuth(url, options = {}) {
     const token = getToken();
@@ -114,4 +127,8 @@ async function fetchWithAuth(url, options = {}) {
         return null;
     }
     return response;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8a1f99fda05f1a3fa1a79c3d9890801cfcbc40e2
